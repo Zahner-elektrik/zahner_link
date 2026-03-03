@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<zahner-measurement>
+    <zahner-fileinfo>
+        <type>zahner-measurement</type>
+        <file-version>1</file-version>
+        <creation-timestamp>2025-09-17T09:12:35.068786</creation-timestamp>
+        <generator>lib_zahner_link</generator>
+        <generator-version>0.1</generator-version>
+        <comment></comment>
+    </zahner-fileinfo>
+    <zahner-measurement>
+        <hardware-info>
+            <workstation protocol_version="1" serial_number="73000000" model_name="IM7 X" firmware_version="2025.06-1" cpu_card_uuid="106096c6-203d-47a1-86e8-d2e671c93b9e" system_mac="00C06AFFFFFE" system_name="My Zahner Workstation"/>
+            <paths>
+                <path url="PAD4:4:CH4~PAD4:4:ADC4" urn="43134:CH4~43134:ADC4" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:4:CH3~PAD4:4:ADC3" urn="43134:CH3~43134:ADC3" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:4:CH2~PAD4:4:ADC2" urn="43134:CH2~43134:ADC2" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:4:CH1~PAD4:4:ADC1" urn="43134:CH1~43134:ADC1" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:3:CH4~PAD4:3:ADC4" urn="43133:CH4~43133:ADC4" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:3:CH3~PAD4:3:ADC3" urn="43133:CH3~43133:ADC3" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:3:CH2~PAD4:3:ADC2" urn="43133:CH2~43133:ADC2" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:3:CH1~PAD4:3:ADC1" urn="43133:CH1~43133:ADC1" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:2:CH4~PAD4:2:ADC4" urn="43045:CH4~43045:ADC4" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:2:CH3~PAD4:2:ADC3" urn="43045:CH3~43045:ADC3" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:2:CH2~PAD4:2:ADC2" urn="43045:CH2~43045:ADC2" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:2:CH1~PAD4:2:ADC1" urn="43045:CH1~43045:ADC1" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:1:CH4~PAD4:1:ADC4" urn="43044:CH4~43044:ADC4" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:1:CH3~PAD4:1:ADC3" urn="43044:CH3~43044:ADC3" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:1:CH2~PAD4:1:ADC2" urn="43044:CH2~43044:ADC2" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="PAD4:1:CH1~PAD4:1:ADC1" urn="43044:CH1~43044:ADC1" sampling="simultan" source="input" relevance="0.900000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="MAIN:1:POT:U~PAD:1:PAD_U" urn="2557874741:POT:U~43043:PAD_U" sampling="simultan" source="voltage" relevance="1.000000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="MAIN:1:POT:U~PAD:1:PAD_I" urn="2557874741:POT:U~43043:PAD_I" sampling="simultan" source="voltage" relevance="1.000000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="MAIN:1:POT:U~MAIN:1:ADC_32" urn="2557874741:POT:U~2557874741:ADC_32" sampling="high_precision" source="voltage" relevance="0.700000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+                <path url="MAIN:1:POT:U~MAIN:1:ADC_24" urn="2557874741:POT:U~2557874741:ADC_24" sampling="acq" source="voltage" relevance="0.800000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+                <path url="MAIN:1:POT:I~PAD:1:PAD_I" urn="2557874741:POT:I~43043:PAD_I" sampling="simultan" source="shunt" relevance="1.000000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                        <gain_range index="1" enabled="true" nominal_gain="10.000000"/>
+                        <gain_range index="2" enabled="true" nominal_gain="100.000000"/>
+                    </gain_ranges>
+                    <filter_ranges>
+                        <filter_range index="0" enabled="true" frequency="0.780000"/>
+                        <filter_range index="1" enabled="true" frequency="3.000000"/>
+                        <filter_range index="2" enabled="true" frequency="19.200000"/>
+                        <filter_range index="3" enabled="true" frequency="1620.000000"/>
+                        <filter_range index="4" enabled="true" frequency="6420.000000"/>
+                        <filter_range index="5" enabled="true" frequency="39600.000000"/>
+                        <filter_range index="6" enabled="true" frequency="282000.000000"/>
+                        <filter_range index="7" enabled="true" frequency="1056000.000000"/>
+                        <filter_range index="8" enabled="true" frequency="5400000.000000"/>
+                        <filter_range index="9" enabled="true" frequency="20000000.000000"/>
+                    </filter_ranges>
+                </path>
+                <path url="MAIN:1:POT:I~MAIN:1:ADC_32" urn="2557874741:POT:I~2557874741:ADC_32" sampling="high_precision" source="shunt" relevance="0.700000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+                <path url="MAIN:1:POT:I~MAIN:1:ADC_24" urn="2557874741:POT:I~2557874741:ADC_24" sampling="acq" source="shunt" relevance="0.800000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+                <path url="MAIN:1:NTC~MAIN:1:ADC_32" urn="2557874741:NTC~2557874741:ADC_32" sampling="high_precision" source="input" relevance="0.630000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+                <path url="MAIN:1:NTC~MAIN:1:ADC_24" urn="2557874741:NTC~2557874741:ADC_24" sampling="acq" source="input" relevance="0.720000">
+                    <gain_ranges>
+                        <gain_range index="0" enabled="true" nominal_gain="1.000000"/>
+                    </gain_ranges>
+                    <filter_ranges/>
+                </path>
+            </paths>
+            <potentiostats>
+                <potentiostat url="MAIN:1:POT" urn="2557874741:POT" identifier="POT" serialnumber="2557874741" software="1.0.0" has_calibration_data="true" dac_resolution="32">
+                    <current_ranges>
+                        <current_range index="0" enabled="true" current="5.000000" resistance="0.010000"/>
+                        <current_range index="1" enabled="true" current="5.000000" resistance="0.100000"/>
+                        <current_range index="2" enabled="true" current="0.600000" resistance="1.000000"/>
+                        <current_range index="3" enabled="true" current="0.300000" resistance="10.000000"/>
+                        <current_range index="4" enabled="true" current="0.030000" resistance="100.000000"/>
+                        <current_range index="5" enabled="true" current="0.003000" resistance="1000.000000"/>
+                        <current_range index="6" enabled="true" current="0.000300" resistance="10000.000000"/>
+                        <current_range index="7" enabled="true" current="0.000030" resistance="100000.000000"/>
+                        <current_range index="8" enabled="true" current="0.000003" resistance="1000000.000000"/>
+                        <current_range index="9" enabled="true" current="0.000000" resistance="10000000.000000"/>
+                        <current_range index="10" enabled="true" current="0.000000" resistance="100000000.000000"/>
+                        <current_range index="11" enabled="true" current="0.000000" resistance="1000000000.000000"/>
+                    </current_ranges>
+                    <voltage_ranges>
+                        <voltage_range index="0" voltage="5.000000"/>
+                        <voltage_range index="1" voltage="15.000000"/>
+                    </voltage_ranges>
+                    <bandwidth_ranges>
+                        <bandwidth_range index="0" enabled="true"/>
+                        <bandwidth_range index="1" enabled="true"/>
+                        <bandwidth_range index="2" enabled="true"/>
+                        <bandwidth_range index="3" enabled="true"/>
+                        <bandwidth_range index="4" enabled="true"/>
+                        <bandwidth_range index="5" enabled="true"/>
+                        <bandwidth_range index="6" enabled="true"/>
+                    </bandwidth_ranges>
+                    <compliance_ranges>
+                        <compliance_range index="0" compliance="14.000000"/>
+                        <compliance_range index="1" compliance="28.000000"/>
+                    </compliance_ranges>
+                </potentiostat>
+            </potentiostats>
+            <cards>
+                <card name="Function Generator" symbol="FUGE" identifier="FUGE" serialnumber="33193"/>
+                <card name="Pad 03.09.2024" symbol="PAD" identifier="IM7_PAD_04" serialnumber="43043"/>
+                <card name="Parallel Impedance Measurements" symbol="PAD4" identifier="IM7_PAD42_03" serialnumber="43044"/>
+                <card name="Parallel Impedance Measurements" symbol="PAD4" identifier="IM7_PAD42_03" serialnumber="43045"/>
+                <card name="Parallel Impedance Measurements" symbol="PAD4" identifier="IM7_PAD42_03" serialnumber="43133"/>
+                <card name="Parallel Impedance Measurements" symbol="PAD4" identifier="IM7_PAD42_03" serialnumber="43134"/>
+                <card name="Zennium Potentiostat/Shunt" symbol="MAIN" identifier="POT" serialnumber="2557874741"/>
+            </cards>
+        </hardware-info>
+        <dataset type="DC" job-type-short="DC" job-type="DC Combined">
+            <data-structure>
+                <column name="time" type="double" unit="s" urn="time"/>
+                <column name="voltage" type="double" unit="V" urn="2557874741:POT:U~43043:PAD_U"/>
+                <column name="current" type="double" unit="A" urn="2557874741:POT:I~43043:PAD_I"/>
+                <column name="debug" type="double" unit="bits" urn="debug"/>
+            </data-structure>
+            <sections>
+                <section type="DC" job-type-short="ocv" job-type="OCV/OCP Scan" length="100" time-start="0.10000000000000001">
+                    <job-info>
+                        <job-id>67f2cb45-82b2-4135-8d76-581789961ea2</job-id>
+                        <status>FINISHED</status>
+                        <status-detail>RUN_TO_COMPLETION</status-detail>
+                        <created>2025-09-17T09:11:48.874735Z</created>
+                        <started>2025-09-17T09:11:48.874735Z</started>
+                        <ended>2025-09-17T09:11:58.945153Z</ended>
+                        <type>ocv</type>
+                        <parameters>
+                            <time>10.000000</time>
+                            <output_data_rate>10.000000</output_data_rate>
+                        </parameters>
+                        <stop-conditions/>
+                        <meta/>
+                        <message>no error occoured</message>
+                        <last-error>
+                            <number>0</number>
+                            <code>NONE</code>
+                            <message>no error occoured</message>
+                            <message-parameters/>
+                        </last-error>
+                    </job-info>
+                </section>
+                <section type="DC" job-type-short="poga" job-type="Polarization" length="1226" time-start="0.02">
+                    <job-info>
+                        <job-id>84c68ee0-50f4-45a9-b8f6-fd51a30bc8f0</job-id>
+                        <status>FINISHED</status>
+                        <status-detail>FUNCTIONAL_LIMIT_OCCURRED</status-detail>
+                        <created>2025-09-17T09:12:00.208121Z</created>
+                        <started>2025-09-17T09:12:00.208121Z</started>
+                        <ended>2025-09-17T09:12:24.765957Z</ended>
+                        <type>poga</type>
+                        <parameters>
+                            <bias>0.000200</bias>
+                            <time>60.000000</time>
+                            <output_data_rate>50.000000</output_data_rate>
+                            <autorange>true</autorange>
+                            <current_range>0.100000</current_range>
+                            <ir_drop>0.000000</ir_drop>
+                        </parameters>
+                        <stop-conditions>
+                            <stop-condition>
+                                <type>min_max</type>
+                                <parameters>
+                                    <for_dimension>voltage</for_dimension>
+                                    <minimum>0.000000</minimum>
+                                    <maximum>2.000000</maximum>
+                                </parameters>
+                            </stop-condition>
+                        </stop-conditions>
+                        <meta/>
+                        <message>stop condition #0 triggered: voltage: 2.00049 &lt; 0 or 2.00049 &gt; 2</message>
+                        <last-error>
+                            <number>65537</number>
+                            <code>STOP_CONDITION_TRIGGERED</code>
+                            <message>stop condition #{0} triggered: {1}</message>
+                            <message-parameters>
+                                <parameter type="int">0</parameter>
+                                <parameter type="string">voltage: 2.00049 &lt; 0 or 2.00049 &gt; 2</parameter>
+                            </message-parameters>
+                        </last-error>
+                    </job-info>
+                </section>
+                <section type="DC" job-type-short="ocv" job-type="OCV/OCP Scan" length="101" time-start="0.10000000000000001">
+                    <job-info>
+                        <job-id>b60f5958-ab48-497f-b518-55434ca4db3b</job-id>
+                        <status>FINISHED</status>
+                        <status-detail>FUNCTIONAL_LIMIT_OCCURRED</status-detail>
+                        <created>2025-09-17T09:12:24.863414Z</created>
+                        <started>2025-09-17T09:12:24.863414Z</started>
+                        <ended>2025-09-17T09:12:35.019742Z</ended>
+                        <type>ocv</type>
+                        <parameters>
+                            <time>60.000000</time>
+                            <output_data_rate>10.000000</output_data_rate>
+                        </parameters>
+                        <stop-conditions>
+                            <stop-condition>
+                                <type>stability_tolerance</type>
+                                <parameters>
+                                    <for_dimension>voltage</for_dimension>
+                                    <stability_tolerance>0.000500</stability_tolerance>
+                                    <minimum_time>10.000000</minimum_time>
+                                </parameters>
+                            </stop-condition>
+                        </stop-conditions>
+                        <meta/>
+                        <message>stop condition #0 triggered: stability of voltage: 0.000296406 &lt; 0.0005</message>
+                        <last-error>
+                            <number>65537</number>
+                            <code>STOP_CONDITION_TRIGGERED</code>
+                            <message>stop condition #{0} triggered: {1}</message>
+                            <message-parameters>
+                                <parameter type="int">0</parameter>
+                                <parameter type="string">stability of voltage: 0.000296406 &lt; 0.0005</parameter>
+                            </message-parameters>
+                        </last-error>
+                    </job-info>
+                </section>
+            </sections>
+            <csv type="data"><![CDATA[
+time;voltage;current;debug
+s;V;A;bits
+time;2557874741:POT:U~43043:PAD_U;2557874741:POT:I~43043:PAD_I;debug
+0.1;1.003216636010888;-2.371033850208566e-08;0
+0.2;1.003285753470489;-1.465887117617485e-07;0
+0.3;1.003357449430522;-7.259527588752362e-08;0
+0.4;1.003429145390555;1.398159986701197e-09;0
+0.5;1.003495876884256;6.309710425495149e-10;0
+0.6;1.003559769102905;-1.436432363791613e-09;0
+0.7;1.003625681715561;1.981749133570159e-11;0
+0.8;1.003693124855883;1.042227707192077e-11;0
+0.9;1.003760567996205;1.02706280813995e-12;0
+1;1.003829195589467;2.948412587976458e-13;0
+1.1;1.003897823182729;-4.373802905446586e-13;0
+1.2;1.003960740542992;-5.164373257058715e-13;0
+1.3;1.004024959339201;-4.59191222819683e-13;0
+1.4;1.004088256894235;-4.198145919540837e-13;0
+1.5;1.004146694780212;-4.311453408936158e-13;0
+1.6;1.004210947696464;-4.21185369557023e-13;0
+1.7;1.004274815543654;-4.402433551225431e-13;0
+1.8;1.004335656455554;-4.787238543696003e-13;0
+1.9;1.004396555858957;-5.384001446959029e-13;0
+2;1.004454267475436;-4.513576654931901e-13;0
+2.1;1.004514313877751;-5.279085698567851e-13;0
+2.2;1.00457204986569;-5.317740867537167e-13;0
+2.3;1.004629469024654;-5.375799564348644e-13;0
+2.4;1.004689086489279;-5.492486533152873e-13;0
+2.5;1.004745608778526;-5.385596257466604e-13;0
+2.6;1.004803447126596;-4.820881451070082e-13;0
+2.7;1.004862343196015;-4.407863501286935e-13;0
+2.8;1.004914176416424;-4.8606377987232e-13;0
+2.9;1.004968066588028;-4.342172497046351e-13;0
+3;1.005026148650694;-4.840247007233492e-13;0
+3.1;1.005080053445174;-4.742545877805153e-13;0
+3.2;1.005137228889541;-5.060596659030091e-13;0
+3.3;1.005191728347637;-4.969806375134577e-13;0
+3.4;1.005246291171528;-4.588570720466672e-13;0
+3.5;1.005295823726144;-4.829007390322965e-13;0
+3.6;1.005350191578358;-4.777745624008057e-13;0
+3.7;1.00540455455628;-3.598762970443937e-13;0
+3.8;1.005456017330502;-4.796351746596431e-13;0
+3.9;1.005505291547646;-4.896293205071124e-13;0
+4;1.005555564994637;-4.617353252960524e-13;0
+4.1;1.005606408733783;-4.877117507301474e-13;0
+4.2;1.005656029025655;-4.64006031685409e-13;0
+4.3;1.005707048239311;-4.379688515653112e-13;0
+4.4;1.005756770891313;-4.54615635530093e-13;0
+4.5;1.005806352188849;-5.880443174959844e-13;0
+4.6;1.005859057907514;-6.076718782427811e-13;0
+4.7;1.005905719504182;-5.312728605941932e-13;0
+4.8;1.005953984742897;-3.973657354760294e-13;0
+4.9;1.005998813605799;-3.881917778895986e-13;0
+5;1.006047736873924;-3.162962013409721e-13;0
+5.1;1.006093925664275;-4.332072030498377e-13;0
+5.2;1.006144359962899;-3.861640902442532e-13;0
+5.3;1.006187492572209;-3.166189606103622e-13;0
+5.4;1.006233574128138;-4.255597069492284e-13;0
+5.5;1.006280489187987;-4.95028893225616e-13;0
+5.6;1.006322734676165;-4.471693893268683e-13;0
+5.7;1.006365852662598;-4.016071719926036e-13;0
+5.8;1.006412772596739;-4.242117123535401e-13;0
+5.9;1.006456460875329;-4.221992133796957e-13;0
+6;1.006502854385942;-4.20247469091854e-13;0
+6.1;1.006543900798304;-3.818315216986748e-13;0
+6.2;1.006592214779938;-3.783874904358881e-13;0
+6.3;1.006637721169418;-4.251913816653362e-13;0
+6.4;1.006683851468266;-4.63557965876138e-13;0
+6.5;1.006731136974302;-4.375473659311665e-13;0
+6.6;1.006775132333284;-3.715487910926919e-13;0
+6.7;1.006817962736493;-4.084838430145515e-13;0
+6.8;1.006845205154103;-4.510538920631758e-13;0
+6.9;1.006895858795865;-3.908725784094744e-13;0
+7;1.006936393407574;-4.61769499806929e-13;0
+7.1;1.006979930583114;-4.038209208638325e-13;0
+7.2;1.007014304089821;-3.797620652067027e-13;0
+7.3;1.007052528287155;-3.8577298195311e-13;0
+7.4;1.007093482087971;-3.366907899985549e-13;0
+7.5;1.00713214984587;-3.707779660140307e-13;0
+7.6;1.007175097232087;-4.100710591863761e-13;0
+7.7;1.00721433040785;-3.680174249687761e-13;0
+7.8;1.00725342710344;-3.786874666980272e-13;0
+7.9;1.007291061511449;-3.689591226018203e-13;0
+8;1.007325839584387;-4.253812400590951e-13;0
+8.1;1.007366520424855;-3.744840018602047e-13;0
+8.199999999999999;1.007401464223718;-4.366284513053732e-13;0
+8.300000000000001;1.007440746142401;-3.576511566695393e-13;0
+8.4;1.007480305895724;-4.436038486920758e-13;0
+8.5;1.007521503411136;-4.156339101235123e-13;0
+8.6;1.007560068808905;-3.596940329863851e-13;0
+8.699999999999999;1.007599448213427;-3.876981460658253e-13;0
+8.800000000000001;1.007638223205749;-3.703299002047597e-13;0
+8.9;1.007675765002212;-4.115291716504445e-13;0
+9;1.007711878631139;-3.742219972768175e-13;0
+9.1;1.00774825547183;-3.495252174166575e-13;0
+9.199999999999999;1.007783077413395;-3.379856242439906e-13;0
+9.300000000000001;1.007819702842975;-3.406398445887403e-13;0
+9.4;1.007855470397175;-3.352098945272353e-13;0
+9.5;1.007892797724793;-4.307997986169745e-13;0
+9.6;1.007928667639123;-3.59329504870368e-13;0
+9.699999999999999;1.007963206871756;-3.95888637172585e-13;0
+9.800000000000001;1.007999827427044;-4.195525873706963e-13;0
+9.9;1.008033815864688;-3.898435459153011e-13;0
+10;1.008068525697539;-3.919395825823996e-13;0
+10.02;1.008969172989343;0.0001977713898491825;0
+10.04;1.009843089664189;0.0001999994718472874;0
+10.06;1.010709300083491;0.0002000000336779587;0
+10.08;1.011565367101282;0.0002000007097922751;0
+10.1;1.012420634735195;0.0001999994791338285;0
+10.12;1.013278086051895;0.0002000002538082012;0
+10.14;1.014137735674256;0.0002000012819775048;0
+10.16;1.014991126705775;0.0002000009095969029;0
+10.18;1.015841802756689;0.0002000007715361236;0
+10.2;1.016690728936798;0.0002000012639529031;0
+10.22;1.017539606373989;0.0001999998975346902;0
+10.24;1.018387976884818;0.0002000004681859113;0
+10.26;1.019235162942708;0.0002000015032582539;0
+10.28;1.020080282300818;0.0002000010741193316;0
+10.3;1.020929749527332;0.0002000008658776561;0
+10.32;1.021769005112248;0.0002000013552264183;0
+10.34;1.022615674495193;0.0001999983892206764;0
+10.36;1.023464166863321;0.0001999988544088022;0
+10.38;1.024306015571544;0.0001999992152843392;0
+10.4;1.025149097475627;0.0001999986266085164;0
+10.42;1.025990185794309;0.0001999990200817374;0
+10.44;1.026831610439135;0.0001999995922669671;0
+10.46;1.02767149480771;0.0001999985736852176;0
+10.48;1.028515736793273;0.0001999991527734864;0
+10.5;1.02935774635313;0.000199999424293019;0
+10.52;1.030197811070507;0.0001999991619775383;0
+10.54;1.031037188512721;0.0001999990860441097;0
+10.56;1.031877818647962;0.0001999999822886686;0
+10.58;1.032717561662071;0.0001999988708993953;0
+10.6;1.033556914732825;0.0001999991036852093;0
+10.62;1.034387864524288;0.0001999995558342615;0
+10.64;1.03522839717369;0.0001999993303349886;0
+10.66;1.036069154040521;0.0001999992969703003;0
+10.68;1.036909023786221;0.0001999998741410582;0
+10.7;1.03774717778116;0.0001999995635043048;0
+10.72;1.038584264306166;0.0002000001261019804;0
+10.74;1.039421833386073;0.0002000005813190499;0
+10.76;1.040254737768601;0.0002000004102770845;0
+10.78;1.041097234757651;0.0002000001491121103;0
+10.8;1.041930533957826;0.0002000001261019804;0
+10.82;1.042765997343618;0.0001999993123103869;0
+10.84;1.043599486641178;0.0001999988639963563;0
+10.86;1.044438834837641;0.0001999995562177636;0
+10.88;1.045265724343924;0.0001999996072235515;0
+10.9;1.046104473002479;0.0001999995581352745;0
+10.92;1.046936699858428;0.0001999998028096556;0
+10.94;1.047768634256861;0.0001999990653349928;0
+10.96;1.048609746947003;0.0001999992375274648;0
+10.98;1.04944274881537;0.0002000003236055952;0
+11;1.050281794805733;0.0002000006227372837;0
+11.02;1.051110702268876;0.0002000003811309199;0
+11.04;1.051943713885827;0.0002000002844883744;0
+11.06;1.052780893022379;0.0002000006123827253;0
+11.08;1.053609274061994;0.0001999995358921489;0
+11.1;1.054439780292891;0.0001999996471077767;0
+11.12;1.05528141453227;0.0002000002959934394;0
+11.14;1.056110702190184;0.0002000004375057381;0
+11.16;1.056942651211493;0.0002000004447922793;0
+11.18;1.057778738506653;0.0002000008513045739;0
+11.2;1.058607772701386;0.0002000005191916992;0
+11.22;1.059439141681956;0.0002000011995245394;0
+11.24;1.060271378286489;0.0002000015765071673;0
+11.26;1.061106958655287;0.0002000010971294615;0
+11.28;1.061930572637392;0.0002000018204145441;0
+11.3;1.062760830279401;0.0002000020248211979;0
+11.32;1.063589035844506;0.0001999978975709012;0
+11.34;1.064423266034439;0.0001999986212394861;0
+11.36;1.065258929266201;0.0001999994296620493;0
+11.38;1.06608495114852;0.000199998697939919;0
+11.4;1.066921028695096;0.0001999990568979452;0
+11.42;1.067750150627085;0.0001999999075057465;0
+11.44;1.068582377483034;0.0001999989652409278;0
+11.46;1.069411864986917;0.0001999994292785471;0
+11.48;1.070241006416073;0.0001999999439384522;0
+11.5;1.071070581657212;0.0001999995623537983;0
+11.52;1.071903408051069;0.0002000000697271622;0
+11.54;1.072732144913994;0.0002000002123899675;0
+11.56;1.073557460023983;0.0001999993479760882;0
+11.58;1.074388112483639;0.0001999994710802831;0
+11.6;1.075214855761164;0.000199999910957266;0
+11.62;1.07604271037725;0.0002000001479616038;0
+11.64;1.076874903113156;0.0002000001932148592;0
+11.66;1.077709001697207;0.0002000004597488637;0
+11.68;1.078534765242054;0.0002000004578313529;0
+11.7;1.079359909751826;0.0002000004275346819;0
+11.72;1.080193633015398;0.0002000015554145483;0
+11.74;1.081025182344769;0.0002000017598212021;0
+11.76;1.081851009255411;0.0002000018242495657;0
+11.78;1.082676514462786;0.0002000017613552107;0
+11.8;1.083506192064054;0.0002000015212828556;0
+11.82;1.08432988403483;0.0002000004532293269;0
+11.84;1.085164747882715;0.0002000014913696868;0
+11.86;1.085993474997057;0.0002000015458269942;0
+11.88;1.086814417867183;0.0002000007899442275;0
+11.9;1.087634546730556;0.0002000011423827169;0
+11.92;1.088466334900231;0.0002000014875346651;0
+11.94;1.089297952469689;0.000200001673533215;0
+11.96;1.09012990636529;0.0002000023435114968;0
+11.98;1.090953807930619;0.0002000024113913799;0
+12;1.091774585074819;0.000200001876022358;0
+12.02;1.092603711881099;0.0002000018721873363;0
+12.04;1.093432716830081;0.0002000026273030986;0
+12.06;1.094251344411539;0.0002000013395028295;0
+12.08;1.095079915548539;0.0002000009751757731;0
+12.1;1.09590397309121;0.000200001584944215;0
+12.12;1.096735771009469;0.000200001189169981;0
+12.14;1.097561256719676;0.0002000024704507133;0
+12.16;1.098389954588266;0.0002000028926865966;0
+12.18;1.099211584733555;0.0002000022859861721;0
+12.2;1.100042646633732;0.0002000023623031028;0
+12.22;1.100868127469647;0.0002000026200165575;0
+12.24;1.101689299431494;0.000200002339292973;0
+12.26;1.102512352870026;0.0002000022802336396;0
+12.28;1.103337360899624;0.000200002583967354;0
+12.3;1.104159688068658;0.0002000005464203529;0
+12.32;1.104981620420047;0.0001999996310006858;0
+12.34;1.105812121776652;0.0002000000812322271;0
+12.36;1.106641038988379;0.0002000000747126903;0
+12.38;1.107467714025817;0.0002000000294594349;0
+12.4;1.108293462947789;0.0002000008332799721;0
+12.42;1.109118856046449;0.0002000006994377167;0
+12.44;1.109948304555997;0.0002000005970426387;0
+12.46;1.110771684572089;0.0002000009230194787;0
+12.48;1.111590438885137;0.0002000008973248336;0
+12.5;1.112417830443489;0.0002000005260947382;0
+12.52;1.11323946546307;0.000200000784191695;0
+12.54;1.114066276980682;0.0002000011481352493;0
+12.56;1.114888989218779;0.000199999421992006;0
+12.58;1.115711550353827;0.0002000005644449547;0
+12.6;1.116538274134184;0.0002000012033595611;0
+12.62;1.117362531522824;0.0002000008451685392;0
+12.64;1.118183844839137;0.0002000012578168685;0
+12.66;1.119012713307945;0.000200002006413094;0
+12.68;1.119831901432975;0.0002000005448863443;0
+12.7;1.120656153947323;0.0002000011726793879;0
+12.72;1.121481873623543;0.0002000018487937043;0
+12.74;1.122304293404124;0.0002000011419992147;0
+12.76;1.123129457411063;0.0002000020616374057;0
+12.78;1.123954372829114;0.0002000021866591114;0
+12.8;1.124773697434318;0.000200000299828461;0
+12.82;1.125592115421223;0.0002000006411453876;0
+12.84;1.126416650644503;0.0002000008018327946;0
+12.86;1.12724385210547;0.0002000007788226647;0
+12.88;1.128067475836159;0.0002000010925274355;0
+12.9;1.12888976888515;0.0002000011650093446;0
+12.92;1.12971717994067;0.0002000011258921238;0
+12.94;1.130541637175279;0.0002000010948284485;0
+12.96;1.131368741150408;0.0002000015956822756;0
+12.98;1.132187919526854;0.000200001319560717;0
+13;1.133011869835102;0.0002000017997054272;0
+13.02;1.133835230354026;0.0002000023408269816;0
+13.04;1.134654574456399;0.0002000014146692538;0
+13.06;1.135473202037857;0.0002000010580122407;0
+13.08;1.136301466094465;0.0002000012432437862;0
+13.1;1.137119572126686;0.0002000017747777865;0
+13.12;1.137947660708785;0.0002000018158125181;0
+13.14;1.138767268022921;0.0002000019427517346;0
+13.16;1.139590789393479;0.0002000017525346609;0
+13.18;1.140412984956632;0.0002000010660657861;0
+13.2;1.141238066100608;0.0002000013997126694;0
+13.22;1.142063975874213;0.000200002271796592;0
+13.24;1.142880395401426;0.0002000020984536135;0
+13.26;1.143701040939744;0.0002000022196402976;0
+13.28;1.144520516647998;0.000200002101905133;0
+13.3;1.145334903595475;0.0001999977169413817;0
+13.32;1.146161027837925;0.0001999979934464424;0
+13.34;1.146979158241606;0.0001999991834536595;0
+13.36;1.147802123942884;0.0001999982584464382;0
+13.38;1.148624524226297;0.0001999989824985252;0
+13.4;1.14944109485656;0.0001999991684970751;0
+13.42;1.150267063121668;0.0001999984264203864;0
+13.44;1.151090033697238;0.00019999896562443;0
+13.46;1.151907389088501;0.0001999991105882482;0
+13.48;1.1527308860876;0.000199998933026746;0
+13.5;1.153554919258811;0.0001999991853711704;0
+13.52;1.154375949866191;0.0001999995036779671;0
+13.54;1.155196307821285;0.0001999991888226898;0
+13.56;1.156015383837601;0.0001999989648574257;0
+13.58;1.156841220496827;0.0001999998254362833;0
+13.6;1.157662168241245;0.0001999999991627639;0
+13.62;1.158483164728582;0.0002000001073103743;0
+13.64;1.159303649415266;0.0002000005859210759;0
+13.66;1.160125245440511;0.0002000003918689806;0
+13.68;1.160944838131772;0.0001999999454724608;0
+13.7;1.161767701472919;0.0002000005122886603;0
+13.72;1.16258565640209;0.0002000009981859029;0
+13.74;1.1634063068147;0.0002000007232148509;0
+13.76;1.164224958767618;0.0002000010948284485;0
+13.78;1.165054836214856;0.0002000015324044184;0
+13.8;1.165861263443607;0.0001999993410730492;0
+13.82;1.166683936687369;0.0001999995355086468;0
+13.84;1.167505323118061;0.0002000003423972013;0
+13.86;1.168327601544176;0.0002000000697271622;0
+13.88;1.169148120350904;0.0002000002979109502;0
+13.9;1.169971110423641;0.0002000005096041451;0
+13.92;1.170787174127543;0.0001999997391482962;0
+13.94;1.17160988636564;0.0001999999301323742;0
+13.96;1.172432194037507;0.0002000007040397426;0
+13.98;1.173251284676698;0.0002000006438299028;0
+14;1.174071725494755;0.0002000004528458247;0
+14.02;1.174888510593863;0.0002000016160078903;0
+14.04;1.175711861364203;0.0002000005713479936;0
+14.06;1.176531917113197;0.0002000003611888074;0
+14.08;1.177352104468074;0.0002000005970426387;0
+14.1;1.178167593005527;0.0002000006388443746;0
+14.12;1.178986639776092;0.0002000010860078987;0
+14.14;1.179807572897633;0.0002000016708486999;0
+14.16;1.180632722281697;0.000200001650139583;0
+14.18;1.181449892449867;0.0002000013111236694;0
+14.2;1.18227019678775;0.0002000013874406001;0
+14.22;1.183091812310162;0.0002000016650961674;0
+14.24;1.183907690790971;0.0002000017187864704;0
+14.26;1.184732060288325;0.0002000019818689554;0
+14.28;1.185550010343204;0.0002000013939601369;0
+14.3;1.186367609449064;0.0001999983201902868;0
+14.32;1.187186368636405;0.0001999989514348499;0
+14.34;1.188003855633551;0.0001999997399153005;0
+14.36;1.188824564537664;0.000199998991319075;0
+14.38;1.18964404512021;0.0001999996290831749;0
+14.4;1.190461303025635;0.0002000001744232532;0
+14.42;1.191279716138248;0.0001999994070354216;0
+14.44;1.192099255212297;0.0001999997974406252;0
+14.46;1.192908275564356;0.0002000002008849025;0
+14.48;1.193734648395695;0.0002000000632076254;0
+14.5;1.194556507632704;0.000200000569813985;0
+14.52;1.195374457687584;0.0002000009483306215;0
+14.54;1.196191067312181;0.0002000000378964825;0
+14.56;1.197010079962702;0.0001999997000310754;0
+14.58;1.197823886869439;0.0002000003167025563;0
+14.6;1.19864733999991;0.000200000493113552;0
+14.62;1.199464134847601;0.0002000005004000932;0
+14.64;1.200284093110757;0.0002000007734536344;0
+14.66;1.201105377181318;0.0002000009161164397;0
+14.68;1.201923527082167;0.0002000005824695564;0
+14.7;1.202743275750769;0.0002000009694232406;0
+14.72;1.203559008002819;0.0002000010361526172;0
+14.74;1.204371693822412;0.0002000011205230935;0
+14.76;1.205198120270962;0.000200001636333505;0
+14.78;1.206016582126494;0.0002000017022958774;0
+14.8;1.206834088620807;0.0001999996854579931;0
+14.82;1.207650922462834;0.0002000004881280239;0
+14.84;1.208467926905079;0.0002000010779543532;0
+14.86;1.209284424420962;0.0002000005379833053;0
+14.88;1.210103822140546;0.0002000010768038467;0
+14.9;1.210923824272329;0.0002000020493653364;0
+14.92;1.211739995210653;0.0002000012570498641;0
+14.94;1.212560947829362;0.0002000012850455222;0
+14.96;1.213377845037184;0.000200002197397172;0
+14.98;1.214201566253712;0.0002000021425563625;0
+15;1.21501626028158;0.000200002758460839;0
+15.02;1.215832982014893;0.0002000030740831205;0
+15.04;1.216651648590686;0.0002000022085187348;0
+15.06;1.217469393925304;0.0002000021594304577;0
+15.08;1.218288128741185;0.0002000024037213366;0
+15.1;1.219103339443998;0.000200002127599778;0
+15.12;1.219919895451385;0.000200002129900791;0
+15.14;1.220733414774898;0.0002000024171439124;0
+15.16;1.221554406387943;0.0002000024842567912;0
+15.18;1.222373224066786;0.0002000018265505787;0
+15.2;1.223187922968947;0.0002000021111091849;0
+15.22;1.224005868149534;0.0002000026549152545;0
+15.24;1.224822292551039;0.000200002600074445;0
+15.26;1.225638195403307;0.0002000029981496919;0
+15.28;1.226461112361665;0.0002000024493580942;0
+15.3;1.227272409008057;0.0001999995025274606;0
+15.32;1.228089345210214;0.0001999998407763699;0
+15.34;1.228908216506269;0.0002000003841989372;0
+15.36;1.229722949528473;0.0001999995968689931;0
+15.38;1.230538291837169;0.0002000001214999544;0
+15.4;1.231359361438885;0.0002000007546620284;0
+15.42;1.232172939253901;0.0002000006273393097;0
+15.44;1.232993048620106;0.0002000011899369853;0
+15.46;1.233812909397423;0.0002000011949225135;0
+15.48;1.234628095728777;0.0002000003477662316;0
+15.5;1.235443594014814;0.0002000007504435045;0
+15.52;1.236260622828518;0.0002000017168689596;0
+15.54;1.237082204230887;0.0002000010365361194;0
+15.56;1.23789645469819;0.0002000007090252708;0
+15.58;1.238713390900348;0.0002000019193581026;0
+15.6;1.239532540031042;0.000200002097303107;0
+15.62;1.240350319485704;0.0002000022092857391;0
+15.64;1.24116531084538;0.000200002562874735;0
+15.66;1.241983787323789;0.0002000023155158387;0
+15.68;1.242800167856666;0.0002000021053566525;0
+15.7;1.243615490668194;0.0002000024896258215;0
+15.72;1.244428001013276;0.0002000024117748821;0
+15.74;1.245245453890379;0.0002000018004724315;0
+15.76;1.246058831859426;0.0002000023657546223;0
+15.78;1.246876835531516;0.0002000022729470984;0
+15.8;1.247688258909498;0.000200000788793721;0
+15.82;1.248507359297274;0.0002000014491844487;0
+15.84;1.249325874770017;0.0002000020190686654;0
+15.86;1.250147880235784;0.0002000020528168559;0
+15.88;1.250968082213537;0.0002000025793653281;0
+15.9;1.251778418624417;0.0002000029321873196;0
+15.92;1.252595603415463;0.0002000020079471027;0
+15.94;1.253406724587346;0.0002000024854072977;0
+15.96;1.254222924771421;0.0002000026096619991;0
+15.98;1.255039704996237;0.0002000025214565012;0
+16;1.255857382090768;0.0002000021855086049;0
+16.02;1.256674094075497;0.0002000031883667656;0
+16.04;1.257492161113382;0.0002000023918327695;0
+16.06;1.258302863096158;0.0002000022165722803;0
+16.08;1.259119048657358;0.0002000023661381245;0
+16.1;1.25993105207608;0.0002000022223248127;0
+16.12;1.260750698384552;0.0002000024094738691;0
+16.14;1.261568209753158;0.0002000031231713976;0
+16.16;1.262382830666647;0.0002000024432220596;0
+16.18;1.263199518279916;0.0002000021590469555;0
+16.2;1.264015348017805;0.0002000022710295876;0
+16.22;1.264832103871161;0.000200002430182986;0
+16.24;1.265645267371363;0.0002000024746692371;0
+16.26;1.266466809779396;0.0002000034184680645;0
+16.28;1.267279739313585;0.0002000038851901989;0
+16.3;1.26809038767915;0.0002000004421077641;0
+16.32;1.268902196126194;0.0002000006426793963;0
+16.34;1.269714121556245;0.0002000011232076086;0
+16.36;1.27053155493618;0.0002000008628096388;0
+16.38;1.271348544755549;0.0002000012612683879;0
+16.4;1.27216372621261;0.0002000016041193232;0
+16.42;1.27297837149756;0.0002000008543725912;0
+16.44;1.273795746385991;0.0002000010100744701;0
+16.46;1.274608349342621;0.0002000014894521759;0
+16.48;1.275423287085086;0.0002000016160078903;0
+16.5;1.276241563717525;0.0002000018441916783;0
+16.52;1.277058490171098;0.0002000018660513017;0
+16.54;1.27787238481509;0.0002000009536996518;0
+16.56;1.278682428768455;0.0002000007558125349;0
+16.58;1.279500247217452;0.000200001808525977;0
+16.6;1.280318752941612;0.0002000021114926871;0
+16.62;1.281131843327435;0.0002000021122596914;0
+16.64;1.281946898052906;0.0002000021053566525;0
+16.66;1.282764482535891;0.000200001915523081;0
+16.68;1.283571353325208;0.0002000008382655003;0
+16.7;1.284383561464191;0.0002000015228168643;0
+16.72;1.285201038712753;0.0002000023956677912;0
+16.74;1.286020182969156;0.0002000026894304493;0
+16.76;1.286836519633406;0.0002000030127227742;0
+16.78;1.287653572818569;0.0002000030552915145;0
+16.8;1.288464240681302;0.0002000012374912537;0
+16.82;1.289277053232484;0.0002000015235838686;0
+16.84;1.290093872451636;0.0002000015745896565;0
+16.86;1.290905154475152;0.0002000014265578209;0
+16.88;1.291723250758789;0.0002000017226214921;0
+16.9;1.292538749044826;0.0002000022641265487;0
+16.92;1.293355699869859;0.0002000018702698255;0
+16.94;1.294168848747185;0.0002000024205954319;0
+16.96;1.294984400650434;0.0002000024854072977;0
+16.98;1.295796096988764;0.0002000020838805313;0
+17;1.296608933911407;0.000200002460479657;0
+17.02;1.297423393973262;0.0002000027500237914;0
+17.04;1.298245121604389;0.0002000020255882022;0
+17.06;1.299052162993924;0.0002000013529254053;0
+17.08;1.299866418335519;0.00020000173642757;0
+17.1;1.300679615955764;0.0002000020627879122;0
+17.12;1.301491697363157;0.0002000016835042713;0
+17.14;1.302306415762485;0.0002000021103421806;0
+17.16;1.303121772694056;0.0002000022085187348;0
+17.18;1.303931996996223;0.0002000022438009339;0
+17.2;1.304747573270931;0.0002000028984391291;0
+17.22;1.305565776788991;0.0002000028608559169;0
+17.24;1.306376810223619;0.0002000023972017998;0
+17.26;1.307191011948002;0.0002000027366012156;0
+17.28;1.308008840145583;0.0002000026963334883;0
+17.3;1.308808355628374;0.0001999973119630958;0
+17.32;1.309631374946863;0.0001999966423683161;0
+17.34;1.310440317310252;0.0001999971213625199;0
+17.36;1.311256541865787;0.0001999969810007276;0
+17.38;1.312066468836146;0.0001999968621150565;0
+17.4;1.312880768046368;0.0001999967808125976;0
+17.42;1.313700570332182;0.0001999967647055067;0
+17.44;1.314508942403414;0.0001999969955738099;0
+17.46;1.31532305151625;0.0001999971646982645;0
+17.48;1.316140148570042;0.0001999973694884205;0
+17.5;1.31695300011556;0.0001999976728386327;0
+17.52;1.317766485319029;0.0001999976544305288;0
+17.54;1.318577226296141;0.0001999978757112779;0
+17.56;1.319390092464535;0.0001999973188661347;0
+17.58;1.320205605373448;0.00019999758731765;0
+17.6;1.321018564153388;0.0001999978074478926;0
+17.62;1.321833053460996;0.0001999974718834984;0
+17.64;1.322647664625902;0.0001999977802192389;0
+17.66;1.32346311416902;0.0001999984494305163;0
+17.68;1.324271023182518;0.0001999981334247326;0
+17.7;1.325088982985982;0.0001999983550889837;0
+17.72;1.325902594921041;0.000199998867831378;0
+17.74;1.32671438874521;0.0001999982849080876;0
+17.76;1.32752552941426;0.0001999986009138713;0
+17.78;1.328343396606176;0.0001999989326432438;0
+17.8;1.329153499051045;0.0001999978220209748;0
+17.82;1.329966530945364;0.000199997615313308;0
+17.84;1.330778680592844;0.00019999782470549;0
+17.86;1.331591410281064;0.0001999977054363167;0
+17.88;1.332402731298915;0.0001999981940180746;0
+17.9;1.333222972271003;0.0001999988597778325;0
+17.92;1.334030905655961;0.0001999984804941916;0
+17.94;1.334842348531111;0.0001999978718762562;0
+17.96;1.335657286273576;0.0001999986108849276;0
+17.98;1.336473501080528;0.0001999987021584428;0
+18;1.337288599674627;0.0001999985027373172;0
+18.02;1.338100715202063;0.0001999986231569969;0
+18.04;1.338912679626449;0.0001999986825998324;0
+18.06;1.339723947027089;0.0001999982331352954;0
+18.08;1.340534195700716;0.0001999990450093781;0
+18.1;1.341354772998947;0.0001999993867098068;0
+18.12;1.34215729591986;0.0001999987546982394;0
+18.14;1.342970123093919;0.0001999987504797156;0
+18.16;1.343787590593897;0.0001999992689746423;0
+18.18;1.344599384418065;0.0001999991826866552;0
+18.2;1.345415711333731;0.0001999992662901271;0
+18.22;1.346228674987964;0.0001999995335911359;0
+18.24;1.347043910062237;0.0001999994814348415;0
+18.26;1.347861172841954;0.0002000002979109502;0
+18.28;1.348673234752179;0.0002000007182293227;0
+18.3;1.349478579888121;0.0001999984256533821;0
+18.32;1.350283042777224;0.0001999970297055025;0
+18.34;1.351099803504872;0.0001999967413118747;0
+18.36;1.351913629908776;0.0001999969391989916;0
+18.38;1.35272624261399;0.0001999974714999963;0
+18.4;1.353540434589789;0.0001999980325636633;0
+18.42;1.354350956223764;0.0001999982580629361;0
+18.44;1.355160074061662;0.0001999972306606368;0
+18.46;1.355974802209574;0.0001999977330484726;0
+18.48;1.356791611680141;0.0001999981000600442;0
+18.5;1.357605072512151;0.0001999977104218449;0
+18.52;1.358418182395141;0.0001999981058125767;0
+18.54;1.359230005465062;0.0001999983478024426;0
+18.56;1.360040220018644;0.0001999973552988404;0
+18.58;1.360849771668524;0.0001999975202047712;0
+18.6;1.361658962620801;0.0001999980862539663;0
+18.62;1.362475791588536;0.0001999979949804511;0
+18.64;1.363285923279156;0.0001999986189384731;0
+18.66;1.364098950299184;0.0001999990335043131;0
+18.68;1.364910568648843;0.0001999982971801569;0
+18.7;1.365722835279329;0.0001999983819341353;0
+18.72;1.366535335875828;0.0001999985215289232;0
+18.74;1.367350634315896;0.0001999984179833388;0
+18.76;1.368159469444862;0.0001999988363842005;0
+18.78;1.368971706829597;0.0001999992448140059;0
+18.8;1.369790163810837;0.0001999985848067804;0
+18.82;1.370595084883381;0.0001999973698719226;0
+18.84;1.371411333810376;0.0001999979627662693;0
+18.86;1.372225179711449;0.0001999985598791397;0
+18.88;1.373034663121242;0.0001999979152120008;0
+18.9;1.373844214771121;0.0001999987784753736;0
+18.92;1.374657578117293;0.0001999987274695857;0
+18.94;1.375470634383072;0.0001999980613263256;0
+18.96;1.376286897932943;0.0001999985663986765;0
+18.98;1.377099188934888;0.0001999992248718933;0
+19;1.377906415547517;0.0001999988244956334;0
+19.02;1.37872303979499;0.0001999995496982268;0
+19.04;1.37953508708234;0.0002000004543798334;0
+19.06;1.380342981472963;0.0001999985253639449;0
+19.08;1.381153361752471;0.0001999988317821745;0
+19.1;1.381965745365964;0.000199999512882019;0
+19.12;1.382780980440237;0.000199999624481149;0
+19.14;1.383594241426277;0.0001999998952336772;0
+19.16;1.384404714317332;0.0002000001912973484;0
+19.18;1.385216537387253;0.0002000000827662358;0
+19.2;1.386029608275908;0.0001999998871801318;0
+19.22;1.386842815644737;0.0001999999186273093;0
+19.24;1.387656320345374;0.0001999999615795517;0
+19.26;1.388464960502663;0.0002000004762394568;0
+19.28;1.389278431083256;0.0002000007147778032;0
+19.3;1.390094372929859;0.0002000003186200671;0
+19.32;1.390899391488242;0.0001999974331497798;0
+19.34;1.391709459813067;0.0001999976114782864;0
+19.36;1.392525104327862;0.0001999981123321135;0
+19.38;1.393336859157696;0.00019999778750578;0
+19.4;1.394147039591235;0.0001999982500093906;0
+19.42;1.394953403454191;0.0001999983949732089;0
+19.44;1.395765002306683;0.0001999974745680136;0
+19.46;1.396582084737598;0.0001999978741772692;0
+19.48;1.39739020334565;0.0001999988271801485;0
+19.5;1.398201894809688;0.0001999981955520832;0
+19.52;1.399011773037127;0.0001999987754073563;0
+19.54;1.39982503889746;0.0001999993046403436;0
+19.56;1.400632899168039;0.0001999984521150314;0
+19.58;1.401450673748409;0.0001999982818400703;0
+19.6;1.402262706412883;0.0001999989380122741;0
+19.62;1.403075211883673;0.0001999987999514948;0
+19.64;1.403885826129194;0.000199999000523127;0
+19.66;1.404693905742911;0.0001999992325419366;0
+19.68;1.405508780119581;0.0001999991405014171;0
+19.7;1.406314739416307;0.0001999987646692957;0
+19.72;1.40712639188601;0.0001999992398284778;0
+19.74;1.407937727526737;0.000199999449987664;0
+19.76;1.408747157319318;0.0001999994868038718;0
+19.78;1.4095640788986;0.0001999998327228244;0
+19.8;1.410374113103381;0.0002000004229326559;0
+19.82;1.411176860241723;0.0001999979006389186;0
+19.84;1.411992967814252;0.0001999990120281919;0
+19.86;1.41280458128962;0.0001999992229543825;0
+19.88;1.413610872038197;0.0001999988448212481;0
+19.9;1.414425634306153;0.0001999993207474345;0
+19.92;1.415242185439247;0.0002000001080773787;0
+19.94;1.416055743757096;0.0001999994557401965;0
+19.96;1.416867444969718;0.0001999996007040147;0
+19.98;1.417675626943565;0.000200000071644673;0
+20;1.418479373311753;0.0001999996823899758;0
+20.02;1.419292536811955;0.0001999994223755082;0
+20.04;1.420107830377731;0.0001999999006027076;0
+20.06;1.420918308143078;0.0001999996206461273;0
+20.08;1.421725841836098;0.000199999098316179;0
+20.1;1.422538615392945;0.0001999992160513435;0
+20.12;1.42334421886636;0.0001999993123103869;0
+20.14;1.424156115050659;0.0001999991995607505;0
+20.16;1.424969278550861;0.0002000001280194912;0
+20.18;1.425787087251275;0.0002000005065361278;0
+20.2;1.426593022176541;0.0001999997982076296;0
+20.22;1.427404572286113;0.0002000003485332359;0
+20.24;1.428221542608314;0.0002000007834246907;0
+20.26;1.429030197388478;0.0002000011320281585;0
+20.28;1.429844306501315;0.0002000014982727257;0
+20.3;1.430655973593894;0.000200001845725687;0
+20.32;1.43146304422918;0.0001999986124189363;0
+20.34;1.432268072536147;0.0001999976747561436;0
+20.36;1.433075845069471;0.0001999986227734947;0
+20.38;1.433883944180355;0.000199998283374079;0
+20.4;1.434698920917156;0.0001999986430991095;0
+20.42;1.435509296322372;0.0001999991362828933;0
+20.44;1.436315645562453;0.0001999987523972264;0
+20.46;1.43712945246919;0.0001999988114565598;0
+20.48;1.437939067484864;0.0001999989525853564;0
+20.5;1.438752811025806;0.0001999990388733434;0
+20.52;1.439569557130578;0.0001999996076070537;0
+20.54;1.440379552341024;0.0001999999688660929;0
+20.56;1.441188587315959;0.0002000006096982101;0
+20.58;1.441996662055384;0.0001999989663914343;0
+20.6;1.44280385942226;0.0001999995347416424;0
+20.62;1.443618777667558;0.000199999582679413;0
+20.64;1.444426135886068;0.0001999991174912872;0
+20.66;1.445237890715901;0.0001999997015650841;0
+20.68;1.446052443389304;0.0002000003155520498;0
+20.7;1.446858212588644;0.0001999998645535041;0
+20.72;1.447664089022407;0.0001999996428892529;0
+20.74;1.448474362067493;0.0002000002319485779;0
+20.76;1.449286029160072;0.0002000001491121103;0
+20.78;1.450100450227592;0.0002000008363479894;0
+20.8;1.45091156165089;0.0002000008904217947;0
+20.82;1.451717316227355;0.0001999994112539454;0
+20.84;1.452522671111881;0.0001999988728169061;0
+20.86;1.45333686308768;0.0001999992352264518;0
+20.88;1.454143792368501;0.000199999459191716;0
+20.9;1.454959509997675;0.0001999998975346902;0
+20.92;1.455771532913565;0.0002000006936851842;0
+20.94;1.45658009020789;0.0002000007420064569;0
+20.96;1.457392746781731;0.0002000000052987985;0
+20.98;1.458195411057111;0.0002000003857329459;0
+21;1.459008974249251;0.000200000732802405;0
+21.02;1.459823507425486;0.0002000004378892403;0
+21.04;1.460634004688001;0.0002000016562756176;0
+21.06;1.461443687943763;0.0002000015638515959;0
+21.08;1.462251411734168;0.0001999997498863568;0
+21.1;1.463059754559649;0.0002000004973320758;0
+21.12;1.463869423192535;0.0002000012167821368;0
+21.14;1.464680968427815;0.0002000006936851842;0
+21.16;1.465492830492071;0.0002000009759427774;0
+21.18;1.46629771257028;0.0002000016382510159;0
+21.2;1.467111270888128;0.0002000007903277297;0
+21.22;1.467919467484851;0.0002000011791989247;0
+21.24;1.468729906255863;0.0002000019381497087;0
+21.26;1.469543835019898;0.0002000019423682325;0
+21.28;1.470354741722935;0.0002000019224261199;0
+21.3;1.471164824670635;0.0002000023320064318;0
+21.32;1.471962039487634;0.0002000001878458289;0
+21.34;1.472763733778919;0.0001999970116809008;0
+21.36;1.473576083272368;0.0001999976985332778;0
+21.38;1.474388988435098;0.0001999980164565723;0
+21.4;1.475194567537053;0.000199997529025321;0
+21.42;1.476008876495859;0.000199998078583923;0
+21.44;1.47682367775815;0.0001999983293943387;0
+21.46;1.477631757371866;0.0001999978431135939;0
+21.48;1.478443785162048;0.0001999979861599013;0
+21.5;1.47925200613023;0.0001999985579616289;0
+21.52;1.480058623456367;0.0001999981702409404;0
+21.54;1.480875179463753;0.0001999985924768237;0
+21.56;1.481683332191849;0.0001999993974478674;0
+21.58;1.482490261472669;0.0001999985579616289;0
+21.6;1.483301368021675;0.0001999986994739277;0
+21.62;1.484112430702054;0.0001999991128892612;0
+21.64;1.484922045717729;0.0001999987474116983;0
+21.66;1.485726898550187;0.0001999989468328239;0
+21.68;1.486531839119899;0.000199998954119365;0
+21.7;1.487344417705068;0.0001999992018617634;0
+21.72;1.488154515275645;0.0001999991485549625;0
+21.74;1.488964339885873;0.0001999997449008287;0
+21.76;1.489780335349687;0.0002000001092278852;0
+21.78;1.490587717939657;0.0001999997943726079;0
+21.8;1.491392653635077;0.0001999997790325213;0
+21.82;1.4922051396087;0.0002000001843943094;0
+21.84;1.493009124817194;0.0001999981338082347;0
+21.86;1.493819875542889;0.0001999988965940403;0
+21.88;1.494630133965099;0.0001999992359934561;0
+21.9;1.495435654575551;0.0001999986461671268;0
+21.92;1.496247229056583;0.0001999991707980881;0
+21.94;1.497055825345244;0.0001999990841265989;0
+21.96;1.497866975762878;0.0001999991546909972;0
+21.98;1.498676966099031;0.0001999994147054649;0
+22;1.499485123701419;0.0001999998637864997;0
+22.02;1.500295421117964;0.0001999993452915731;0
+22.04;1.501104012532333;0.0002000000198718808;0
+22.06;1.501911317133633;0.000200000006449305;0
+22.08;1.502719645336237;0.000199999186905179;0
+22.1;1.50353190221814;0.0001999987267025814;0
+22.12;1.504339353048197;0.000199999880660595;0
+22.14;1.505148353903089;0.0001999998929326642;0
+22.16;1.505953816022037;0.0001999998058776729;0
+22.18;1.506768046992172;0.0002000002235115302;0
+22.2;1.507577701002183;0.0002000003914854784;0
+22.22;1.508381554604794;0.0001999996386707291;0
+22.24;1.50919003878474;0.0002000001886128333;0
+22.26;1.510008880835043;0.0002000005993436516;0
+22.28;1.510815644389938;0.0002000005310802663;0
+22.3;1.511628276592319;0.0002000012309717169;0
+22.32;1.512432096074886;0.0002000016267459509;0
+22.34;1.513237616685338;0.0001999978208704683;0
+22.36;1.514046076493825;0.0001999976087937712;0
+22.38;1.514856486019085;0.0001999980053350095;0
+22.4;1.515667421967874;0.0001999982097416633;0
+22.42;1.516476227851088;0.0001999986496186463;0
+22.44;1.517285072728638;0.000199998989018062;0
+22.46;1.518086240596394;0.0001999984613190834;0
+22.48;1.51889838049529;0.0001999982803060617;0
+22.5;1.51970720100138;0.0001999989057980923;0
+22.52;1.520511537158893;0.000199998967925443;0
+22.54;1.521319977470212;0.000199998441760473;0
+22.56;1.52212508376585;0.0001999990350383218;0
+22.58;1.52293564439416;0.00019999941738998;0
+22.6;1.52374267603511;0.0001999981322742261;0
+22.62;1.524559885197616;0.0001999988421367329;0
+22.64;1.525371089232461;0.000199999904054227;0
+22.66;1.526176765820255;0.0001999994338805731;0
+22.68;1.526987964980808;0.0001999998952336772;0
+22.7;1.527796522275134;0.0002000004190976342;0
+22.72;1.528605820461833;0.0001999995282221056;0
+22.74;1.52941473357947;0.0001999998472959067;0
+22.76;1.530225333202115;0.0002000003753783875;0
+22.78;1.531030770949604;0.0001999995121150147;0
+22.8;1.531835531170515;0.0001999998787430842;0
+22.82;1.532650785741955;0.000200000665306024;0
+22.84;1.533458714252622;0.0001999991911237028;0
+22.86;1.534265950613834;0.000199998539553525;0
+22.88;1.535070545108818;0.0001999990511454127;0
+22.9;1.535884371512723;0.0001999994039674043;0
+22.92;1.536696443171532;0.000199999282397218;0
+22.94;1.537500282151267;0.0001999996122090797;0
+22.96;1.538314396138396;0.0001999999308993786;0
+22.98;1.539122573237951;0.0001999996624478633;0
+23;1.539934786251226;0.0002000002944594307;0
+23.02;1.540738493625079;0.0002000006453639114;0
+23.04;1.541544901356662;0.0001999999838226773;0
+23.06;1.542355890922662;0.0002000004747054481;0
+23.08;1.543163590341608;0.0002000009717242536;0
+23.1;1.543971884424169;0.0001999991117387547;0
+23.12;1.544780914524812;0.0002000001249514739;0
+23.14;1.545588677309553;0.0002000009981859029;0
+23.16;1.546393593507805;0.0002000004424912663;0
+23.18;1.547204914525657;0.0002000005425853313;0
+23.2;1.548007252223477;0.0002000006722090629;0
+23.22;1.548813445486215;0.0002000004260006732;0
+23.24;1.549622816787294;0.0002000004873610196;0
+23.26;1.550440274538688;0.0002000008746982059;0
+23.28;1.551244566827573;0.0002000008294449505;0
+23.3;1.552053699288346;0.0002000010768038467;0
+23.32;1.552858703223853;0.0002000018537792324;0
+23.34;1.553663965496833;0.0002000008769992189;0
+23.36;1.554461146193789;0.000199997170450797;0
+23.38;1.555275260180917;0.0001999977411020181;0
+23.4;1.556086834661949;0.000199998511557867;0
+23.42;1.556897434284594;0.0001999985203784167;0
+23.44;1.557703188861059;0.0001999988919920144;0
+23.46;1.558513832352332;0.0001999986177879666;0
+23.48;1.559316681850805;0.0001999982342858019;0
+23.5;1.56012884612116;0.0001999989763624906;0
+23.52;1.560941839021144;0.0001999999335838937;0
+23.54;1.561745838852513;0.0001999995688733351;0
+23.56;1.562556224006314;0.0001999991976432396;0
+23.58;1.56336097447864;0.0001999997840180495;0
+23.6;1.564174810631129;0.0001999994741483004;0
+23.62;1.564980370235916;0.0001999996233306425;0
+23.64;1.565786183303884;0.0001999995880484433;0
+23.66;1.566589271642661;0.0001999989364782655;0
+23.68;1.567403268646784;0.000199998730537603;0
+23.7;1.568211738203855;0.0001999994193074908;0
+23.72;1.569023273690551;0.0002000000045317942;0
+23.74;1.569833064180736;0.0001999994131714562;0
+23.76;1.570636357239774;0.0001999994492206597;0
+23.78;1.571442584622556;0.0002000001199659458;0
+23.8;1.572252974650649;0.0001999999815216643;0
+23.82;1.573062224094429;0.0002000004980990802;0
+23.84;1.573870742394419;0.0002000006768110889;0
+23.86;1.574669668087886;0.0001999985621801527;0
+23.88;1.575476568122955;0.0001999985548936116;0
+23.9;1.576287440705949;0.0001999990419413608;0
+23.92;1.577091191948429;0.000199999058815456;0
+23.94;1.577901406502012;0.0001999996325346944;0
+23.96;1.578716436856024;0.0002000003504507467;0
+23.98;1.579523414879763;0.0002000000513190583;0
+24;1.580328920867339;0.000200000067042647;0
+24.02;1.581134958152736;0.0002000003285911234;0
+24.04;1.581949549820474;0.0002000003400961883;0
+24.06;1.582762157651395;0.000200000607013695;0
+24.08;1.58357063695705;0.000200001147368245;0
+24.1;1.584383712719997;0.000200001512845808;0
+24.12;1.585189535536549;0.0002000012681714269;0
+24.14;1.586003166968776;0.0002000025176214795;0
+24.16;1.58681217269796;0.0002000028873175663;0
+24.18;1.587613944977916;0.0002000024133088907;0
+24.2;1.588422667998167;0.0002000018507112151;0
+24.22;1.589228739403607;0.0002000022073682283;0
+24.24;1.590033835950661;0.0002000010537937168;0
+24.26;1.590833302690533;0.0002000012037430632;0
+24.28;1.591640032125384;0.0002000009513986389;0
+24.3;1.592447331852391;0.0002000002196765086;0
+24.32;1.593253193663278;0.0002000010422886519;0
+24.34;1.59406577712274;0.0002000015650021024;0
+24.36;1.594870347246265;0.0001999994419341186;0
+24.38;1.595681965595924;0.0001999988505737806;0
+24.4;1.596491429508549;0.0001999997529543741;0
+24.42;1.597298295423575;0.0001999996517098027;0
+24.44;1.598106521266049;0.000199999782867543;0
+24.46;1.59891153495014;0.0002000000378964825;0
+24.48;1.599719770541198;0.0001999999884247033;0
+24.5;1.600528756773214;0.0001999999512249933;0
+24.52;1.60133771863377;0.0002000007017387296;0
+24.54;1.602143424467315;0.0002000007803566734;0
+24.56;1.602948330916983;0.000200000302129474;0
+24.58;1.603753325103906;0.000200000302129474;0
+24.6;1.604555258235496;0.0002000006825636214;0
+24.62;1.605357269355757;0.0001999988225781225;0
+24.64;1.606168775596702;0.0002000000359789717;0
+24.66;1.606982831092327;0.0002000002031859155;0
+24.68;1.607786972278162;0.0001999997698284694;0
+24.7;1.608597372054838;0.0002000003516012532;0
+24.72;1.609409692302536;0.0002000012071945827;0
+24.74;1.610219492541304;0.000200000954083154;0
+24.76;1.611022639371585;0.0002000010480411844;0
+24.78;1.611827545821253;0.0002000015772741717;0
+24.8;1.612633753706868;0.0002000009015433574;0
+24.82;1.613439357180282;0.0002000005552409027;0
+24.84;1.614249318270684;0.0002000013671149854;0
+24.86;1.615054093114471;0.0002000009793942969;0
+24.88;1.615865823572844;0.0001999999408704348;0
+24.9;1.616673878815101;0.0002000005153566776;0
+24.92;1.617481977925985;0.0002000010580122407;0
+24.94;1.618290466980224;0.0002000010679832969;0
+24.96;1.619100930122695;0.0002000017122669336;0
+24.98;1.619904739856679;0.0002000018372886394;0
+25;1.620707023937287;0.0002000008766157167;0
+25.02;1.621506173848184;0.0002000012355737429;0
+25.04;1.622318016415272;0.0002000020535838602;0
+25.06;1.623129551901968;0.0002000015845607128;0
+25.08;1.623936027873639;0.0002000019243436307;0
+25.1;1.624745165208704;0.0002000023761091808;0
+25.12;1.625548195055979;0.0002000012367242494;0
+25.14;1.62635434445009;0.0002000004892785304;0
+25.16;1.62716326731631;0.0002000007995317816;0
+25.18;1.627971005729592;0.0002000013448718599;0
+25.2;1.628783057891233;0.0002000018227155571;0
+25.22;1.62959061108142;0.0002000022783161288;0
+25.24;1.630392651447433;0.0002000016317314791;0
+25.26;1.631196529421503;0.0002000012133306174;0
+25.28;1.632001392002544;0.0002000015005737387;0
+25.3;1.632812727643271;0.0002000020838805313;0
+25.32;1.633620700022565;0.0002000018315361069;0
+25.34;1.634432849670045;0.0002000023251033929;0
+25.36;1.635236830004246;0.0002000021943291547;0
+25.38;1.636028107933672;0.0001999968341193985;0
+25.4;1.636837211148694;0.000199997091449351;0
+25.42;1.63764213709553;0.0001999976498285028;0
+25.44;1.638454793669371;0.0001999977794522345;0
+25.46;1.639266738596589;0.0001999986664927415;0
+25.48;1.640076129394836;0.0001999988896910014;0
+25.5;1.640880704392653;0.0001999991017676985;0
+25.52;1.641683139576311;0.0001999984095462911;0
+25.54;1.642487358750817;0.0001999985993798627;0
+25.56;1.643297451447101;0.0001999982745535292;0
+25.58;1.644103327880864;0.0001999976682366068;0
+25.6;1.64490436901703;0.0001999980678458624;0
+25.62;1.645707306252758;0.0001999979612322606;0
+25.64;1.646517603669304;0.0001999974078386369;0
+25.66;1.647323216891302;0.0001999977813697453;0
+25.68;1.648130463001098;0.000199998371963079;0
+25.7;1.648943538764045;0.0001999982967966547;0
+25.72;1.649750156090182;0.0001999990131786984;0
+25.74;1.650557333959891;0.0001999993077083609;0
+25.76;1.651362835073175;0.0001999982538444123;0
+25.78;1.652162803865115;0.0001999984095462911;0
+25.8;1.652970006106284;0.0001999987834609017;0
+25.82;1.653776930512812;0.0001999978561526675;0
+25.84;1.654584668926093;0.0001999982921946287;0
+25.86;1.655392207493405;0.0001999990871946162;0
+25.88;1.656196762994055;0.0001999979968979619;0
+25.9;1.657000748202548;0.0001999974189601997;0
+25.92;1.657808496364413;0.0001999982434898538;0
+25.94;1.658620178079867;0.0001999979340036069;0
+25.96;1.659421696896642;0.0001999984820282003;0
+25.98;1.660227568456113;0.0001999985445390531;0
+26;1.661036520568086;0.0001999986200889796;0
+26.02;1.661843674066335;0.0001999983662105465;0
+26.04;1.662647449680275;0.0001999988758849234;0
+26.06;1.663454910258916;0.0001999990530629235;0
+26.08;1.66426757658134;0.0001999986032148843;0
+26.1;1.665078795239061;0.0001999993065578544;0
+26.12;1.665885183473477;0.000200000278735842;0
+26.14;1.666683787463677;0.0001999988965940403;0
+26.16;1.667491789088722;0.0001999991140397677;0
+26.18;1.668300682709191;0.0001999994691627722;0
+26.2;1.669104755654939;0.0001999992225708803;0
+26.22;1.669913347069309;0.0002000002982944524;0
+26.24;1.670723878451867;0.0002000003320426428;0
+26.26;1.671528248729423;0.0001999996110585732;0
+26.28;1.672327983555351;0.0001999993184464215;0
+26.3;1.673135809705887;0.0001999996321511923;0
+26.32;1.673939936268846;0.0001999999002192054;0
+26.34;1.674754235479068;0.0002000000509355561;0
+26.36;1.675559912066862;0.0002000007811236777;0
+26.38;1.676363248994528;0.0001999996708849109;0
+26.4;1.677160907372093;0.0001999975539529617;0
+26.42;1.677971053685588;0.000199997696615767;0
+26.44;1.678777349308457;0.0001999980532727801;0
+26.46;1.679583991006054;0.0001999979447416675;0
+26.48;1.680395048812141;0.0001999980874044728;0
+26.5;1.681199550695579;0.000199998907332101;0
+26.52;1.682004715482719;0.0001999973997850915;0
+26.54;1.682805103463767;0.0001999980379326935;0
+26.56;1.683612734642625;0.000199998306767711;0
+26.58;1.684417509486411;0.0001999978611381956;0
+26.6;1.685222308701657;0.0001999983604580141;0
+26.62;1.686033093547396;0.0001999988931425209;0
+26.64;1.686841480241504;0.0001999977848212648;0
+26.66;1.687649413626462;0.0001999981614203906;0
+26.68;1.688462148188974;0.0001999992275564085;0
+26.7;1.689268677777856;0.0001999996942785429;0
+26.72;1.690069787154109;0.0001999994373320926;0
+26.74;1.690874805712492;0.0001999995090469974;0
+26.76;1.691684469471086;0.0001999997284102356;0
+26.78;1.692484755092003;0.0001999993391555384;0
+26.8;1.693292084064761;0.0001999996509427983;0
+26.82;1.694097726532511;0.0001999997521873698;0
+26.84;1.694902749965186;0.0001999996731859239;0
+26.86;1.695705711572373;0.0002000001882293311;0
+26.88;1.696513669328792;0.000200000104242357;0
+26.9;1.697309309749496;0.0001999981894160486;0
+26.92;1.698120957344907;0.0001999985683161873;0
+26.94;1.698923465642945;0.0001999987826938974;0
+26.96;1.699732773578228;0.0001999985683161873;0
+26.98;1.700541057912206;0.000199999086811114;0
+27;1.701347884832896;0.0001999993115433826;0
+27.02;1.70215073920566;0.0001999992839312267;0
+27.04;1.702955202094763;0.0001999991865216769;0
+27.06;1.70376885789845;0.0002000000263914176;0
+27.08;1.704572901598446;0.0002000004432582706;0
+27.1;1.705376077674479;0.0002000001471945995;0
+27.12;1.706186901514553;0.0002000005782510326;0
+27.14;1.706994742287965;0.0002000000643581319;0
+27.16;1.707798132832842;0.0001999991918907072;0
+27.18;1.708605530045688;0.0001999997951396122;0
+27.2;1.709414599140666;0.0002000000551540799;0
+27.22;1.710215498922366;0.000199999475682309;0
+27.24;1.711021463093384;0.0001999999282148634;0
+27.26;1.711824746403839;0.0002000004501613096;0
+27.28;1.712631115141087;0.0001999998676215214;0
+27.3;1.713438775565697;0.0002000005214927122;0
+27.32;1.714243998844341;0.0002000007005882231;0
+27.34;1.715050684410565;0.0002000002407691277;0
+27.36;1.715854460024505;0.0002000005191916992;0
+27.38;1.716663314650638;0.0002000008432510284;0
+27.4;1.717463887854779;0.0001999988390687156;0
+27.42;1.718263988252602;0.0001999975083162041;0
+27.44;1.719075523739298;0.0001999983401323993;0
+27.46;1.719878178266094;0.0001999986638082264;0
+27.48;1.720689894101592;0.0001999993863263047;0
+27.5;1.721506245388717;0.0002000000256244132;0
+27.52;1.722313272155376;0.0002000002760513268;0
+27.54;1.723112802261043;0.0001999994051179107;0
+27.56;1.723919609684565;0.0001999993449080709;0
+27.58;1.724725261900899;0.000199999915559292;0
+27.6;1.725527667838806;0.0001999995378096597;0
+27.62;1.726334616616794;0.000199999901753214;0
+27.64;1.727141214445763;0.0002000006376938681;0
+27.66;1.727946666816128;0.0001999989836490317;0
+27.68;1.728748521959047;0.0001999992336924431;0
+27.7;1.729557669042696;0.0001999996367532182;0
+27.72;1.730361508022431;0.0001999996256316554;0
+27.74;1.731167789022425;0.0001999995381931619;0
+27.76;1.731975600550085;0.0002000001448935865;0
+27.78;1.732780175547902;0.0001999995807619022;0
+27.8;1.733585374455086;0.0001999996451902658;0
+27.82;1.734394136469673;0.0002000000536200713;0
+27.84;1.735200047023479;0.0002000005445028421;0
+27.86;1.736000878565092;0.0001999999776866427;0
+27.88;1.73680669163306;0.0002000007005882231;0
+27.9;1.737611266630877;0.000200000725899366;0
+27.92;1.738411854457893;0.0001999989268907114;0
+27.94;1.739216458701462;0.0001999993073248588;0
+27.96;1.740022140163547;0.0001999999815216643;0
+27.98;1.740829985811251;0.000199999028518785;0
+28;1.741636110833902;0.0001999998680050235;0
+28.02;1.742440456739999;0.0002000003144015433;0
+28.04;1.743247907570056;0.0001999997878530711;0
+28.06;1.74405207312735;0.0002000000340614609;0
+28.08;1.744859577574619;0.0002000003884174611;0
+28.1;1.745664298801194;0.000200000460515868;0
+28.12;1.746468751941712;0.0002000005494883702;0
+28.14;1.747276963161311;0.0002000010526432103;0
+28.16;1.74807821389203;0.0002000001970498809;0
+28.18;1.748879742457389;0.0001999997257257205;0
+28.2;1.749686350034942;0.0002000005552409027;0
+28.22;1.750492489680469;0.0002000005870715824;0
+28.24;1.751300276836669;0.0002000004332872143;0
+28.26;1.752101210738413;0.00020000108447389;0
+28.28;1.75291065515387;0.0002000015393074574;0
+28.3;1.753711423329688;0.0002000007634825781;0
+28.32;1.754512430345811;0.0002000015404579639;0
+28.34;1.755325179531198;0.0002000016547416089;0
+28.36;1.756131655502869;0.0002000012275201975;0
+28.38;1.756941212027041;0.0002000016232944314;0
+28.4;1.757749886304373;0.0002000021015216308;0
+28.42;1.758548183214181;0.0001999991301468586;0
+28.44;1.759348673555358;0.0001999992168183479;0
+28.46;1.760161856552728;0.000199999524387084;0
+28.48;1.760960070599573;0.0001999993161454085;0
+28.5;1.761764187413948;0.0001999995677228286;0
+28.52;1.762576068975372;0.0002000004236996602;0
+28.54;1.763380171166872;0.0001999999665650799;0
+28.56;1.764185301833969;0.0001999998960006816;0
+28.58;1.764992781909777;0.0002000003818979243;0
+28.6;1.765799350492995;0.0002000006867821452;0
+28.62;1.766607010917605;0.000200000732802405;0
+28.64;1.767412131836118;0.00020000108447389;0
+28.66;1.768214255065093;0.0002000012371077516;0
+28.68;1.769018834937202;0.0001999998879471361;0
+28.7;1.769822132870533;0.0002000003216880844;0
+28.72;1.770629349734577;0.000200001319560717;0
+28.74;1.771433656646338;0.0002000005648284568;0
+28.76;1.772242564889683;0.0002000010165940068;0
+28.78;1.773048587552204;0.0002000016593436349;0
+28.8;1.773853367270282;0.0002000008612756301;0
+28.82;1.774658824514938;0.0002000011573393013;0
+28.84;1.775462702489009;0.0002000018579977562;0
+28.86;1.776267487081379;0.0002000013885911066;0
+28.88;1.777079339397051;0.0002000015090107863;0
+28.9;1.777878006753046;0.0002000022518544794;0
+28.92;1.778680968360233;0.0002000012367242494;0
+28.94;1.779485655466765;0.000200000530313262;0
+28.96;1.780292501884622;0.0002000006338588465;0
+28.98;1.781096838042135;0.0002000009905158597;0
+29;1.781901154702479;0.0002000002779688376;0
+29.02;1.782703663000517;0.000200000928388509;0
+29.04;1.783505664372193;0.0002000012608848858;0
+29.06;1.784309547220556;0.0002000005617604395;0
+29.08;1.785117134530787;0.0002000010327010978;0
+29.1;1.785924843698317;0.0002000015247343751;0
+29.12;1.786723257591131;0.0002000009989529073;0
+29.14;1.787532414423364;0.0002000017755447908;0
+29.16;1.788336136420093;0.000200001769025254;0
+29.18;1.789139580582182;0.000200000537216301;0
+29.2;1.789942464200698;0.0002000005744160109;0
+29.22;1.790753195429226;0.0002000011028819939;0
+29.24;1.791553539541646;0.0002000011274261325;0
+29.26;1.792363247168867;0.0002000014698935655;0
+29.28;1.793167763675181;0.0002000015557980505;0
+29.3;1.793969511583677;0.0002000016953928384;0
+29.32;1.794772268470603;0.0002000013061381412;0
+29.34;1.795583014322007;0.0002000016359500029;0
+29.36;1.79638884201285;0.0002000020792785053;0
+29.38;1.797184731022444;0.0002000020911670724;0
+29.4;1.797994848090188;0.0002000023995028128;0
+29.42;1.798800968238548;0.0002000020401612845;0
+29.44;1.799595702040953;0.0001999979593147498;0
+29.46;1.800398215213282;0.0001999982860585941;0
+29.48;1.801207294056845;0.0001999986530701657;0
+29.5;1.802008734884949;0.0001999984467460011;0
+29.52;1.80281160388059;0.0001999990841265989;0
+29.54;1.803614541116318;0.0001999998507474261;0
+29.56;1.804417960906947;0.0001999995282221056;0
+29.58;1.805223754477747;0.0001999995623537983;0
+29.6;1.806031882834382;0.0001999996467242745;0
+29.62;1.806839128944178;0.0001999995738588632;0
+29.64;1.807646131339378;0.0002000000517025605;0
+29.66;1.808452729168347;0.0002000008651106518;0
+29.68;1.80925669000538;0.0002000007312683963;0
+29.7;1.810065008459401;0.0001999998035766599;0
+29.72;1.810869130148068;0.0001999998403928677;0
+29.74;1.811673154350897;0.0002000003600383009;0
+29.76;1.81247509723107;0.000199999582679413;0
+29.78;1.813286930049575;0.0002000001924478549;0
+29.8;1.814091110229745;0.0002000009257039938;0
+29.82;1.814889889694455;0.0002000000145028505;0
+29.84;1.815699441344334;0.0002000009249369895;0
+29.86;1.816501096641284;0.0002000013594449421;0
+29.88;1.817306422280058;0.0002000008240759202;0
+29.9;1.818107941096834;0.0002000009859138337;0
+29.92;1.818914148982448;0.0002000008923393055;0
+29.94;1.819716788886368;0.0001999997928385993;0
+29.96;1.820524459059562;0.0002000002956099372;0
+29.98;1.821328146936247;0.0002000008831352535;0
+30;1.822135251691577;0.0002000007849586994;0
+30.02;1.822937072714452;0.0002000006802626084;0
+30.04;1.823737402203996;0.0002000008244594223;0
+30.06;1.824540744005954;0.0002000009567676692;0
+30.08;1.825348380059105;0.0002000005794015391;0
+30.1;1.826154017652563;0.0002000007815071799;0
+30.12;1.826949029289608;0.0002000010269485653;0
+30.14;1.827756709211386;0.0002000001153639198;0
+30.16;1.828557847833391;0.0002000008977083358;0
+30.18;1.829368856896559;0.0002000014771801067;0
+30.2;1.830170755908105;0.0002000005460368508;0
+30.22;1.830979800631624;0.0002000005617604395;0
+30.24;1.831784633966913;0.0002000007393219418;0
+30.26;1.832581049400035;0.000200000045950028;0
+30.28;1.833384771396764;0.0002000007293508855;0
+30.3;1.834196453112218;0.0002000011017314874;0
+30.32;1.835005644064495;0.0002000010070064527;0
+30.34;1.835801567194132;0.0002000008605086258;0
+30.36;1.836606108071906;0.0002000012470788079;0
+30.38;1.837412042997172;0.0002000008509210717;0
+30.4;1.838213917637258;0.0002000010725853229;0
+30.42;1.83902145620457;0.0002000013226287343;0
+30.44;1.839823057884308;0.0002000007335694093;0
+30.46;1.840619327088673;0.0001999979796403645;0
+30.48;1.841425193773852;0.0001999983117532391;0
+30.5;1.842231060459031;0.0001999990181642265;0
+30.52;1.843033056956416;0.0001999984513480271;0
+30.54;1.843842379514574;0.0001999988893074992;0
+30.56;1.844644415006295;0.0001999994806678372;0
+30.58;1.845444871227429;0.0001999981476143127;0
+30.6;1.846256138628069;0.0001999987815433909;0
+30.62;1.847055415270555;0.0001999992164348457;0
+30.64;1.847864932800392;0.0001999991504724734;0
+30.66;1.848666744074683;0.0001999991991772483;0
+30.68;1.849477358320204;0.0001999998956171794;0
+30.7;1.850276727574238;0.0001999993353205168;0
+30.72;1.851086016012353;0.0001999988279471528;0
+30.74;1.851887271617364;0.0001999996003205126;0
+30.76;1.852690442819104;0.0001999996325346944;0
+30.78;1.853487209201246;0.0001999995228530753;0
+30.8;1.854294157979234;0.0001999998173827378;0
+30.82;1.855103656011903;0.0002000000747126903;0
+30.84;1.855903688169638;0.0001999992099153089;0
+30.86;1.856708131561573;0.0001999999266808547;0
+30.88;1.857509962333032;0.0002000004543798334;0
+30.9;1.858314844411241;0.0002000000900527769;0
+30.92;1.85912028215873;0.0002000003700093571;0
+30.94;1.85992607572953;0.0002000009387430674;0
+30.96;1.860724894188575;0.0001999990369558326;0
+30.98;1.861526062056331;0.0001999993959138588;0
+31;1.862333405651966;0.0001999993004218198;0
+31.02;1.86313769794085;0.0001999992597705903;0
+31.04;1.86394152229771;0.0001999997376142875;0
+31.06;1.864745502631911;0.000200000656101972;0
+31.08;1.865552032220793;0.0002000008447850371;0
+31.1;1.86635052897657;0.0002000005678964742;0
+31.12;1.86716164527416;0.0002000012071945827;0
+31.14;1.867965377019473;0.0002000013931931326;0
+31.16;1.86877239891184;0.0002000010840903879;0
+31.18;1.869572689407049;0.0002000016271294531;0
+31.2;1.870374729773061;0.0002000016163913925;0
+31.22;1.87117868086151;0.0001999999216953266;0
+31.24;1.871984771764118;0.0002000008835187557;0
+31.26;1.872786763387211;0.0002000014744955915;0
+31.28;1.873592464346464;0.0002000008194738942;0
+31.3;1.874399676336217;0.000200001354459414;0
+31.32;1.875206230296558;0.0002000017157184531;0
+31.34;1.87601164854688;0.0002000010645317775;0
+31.36;1.876817885678245;0.0002000017187864704;0
+31.38;1.87762061331942;0.0002000025018978908;0
+31.4;1.878423184983253;0.0002000023158993409;0
+31.42;1.87922834002181;0.0002000030050527309;0
+31.44;1.880033870380845;0.0002000035085910731;0
+31.46;1.880834638556663;0.000200001929712661;0
+31.48;1.881625755634455;0.0001999994683957679;0
+31.5;1.882432836018325;0.0001999998430773828;0
+31.52;1.883247549543361;0.0002000008087358336;0
+31.54;1.88405071587081;0.0002000008812177427;0
+31.56;1.884851357315037;0.0002000013222452321;0
+31.58;1.885658876385182;0.0002000011910874918;0
+31.6;1.88645371742201;0.0002000003094160151;0
+31.62;1.88726208461895;0.0002000007485259937;0
+31.64;1.888066703485394;0.0002000010304000848;0
+31.66;1.888870508345086;0.000200000982078812;0
+31.68;1.889678973027865;0.0002000015964492799;0
+31.7;1.89048904135269;0.0002000023032437695;0
+31.72;1.891293338515867;0.000200001258967375;0
+31.74;1.892095374007587;0.0002000010269485653;0
+31.76;1.89289413884942;0.0002000012068110805;0
+31.78;1.893699430368151;0.000200001515146821;0
+31.8;1.894505258058995;0.0002000017157184531;0
+31.82;1.895306830492981;0.0002000024136923929;0
+31.84;1.896110732838512;0.0002000022023827002;0
+31.86;1.896909278337208;0.0002000018422741675;0
+31.88;1.897723597044598;0.0002000023216518734;0
+31.9;1.898522902932836;0.0002000026134970207;0
+31.92;1.899329729853526;0.0002000024777372544;0
+31.94;1.900132593974875;0.0002000027707329083;0
+31.96;1.900929082522376;0.0002000026944159775;0
+31.98;1.901728008215843;0.0002000006338588465;0
+32;1.902533645809301;0.0002000011861019637;0
+32.02;1.903339054311039;0.000200001943518739;0
+32.04;1.904141114174219;0.0002000013931931326;0
+32.06;1.904944192764412;0.0002000012930990676;0
+32.08;1.905747563812122;0.0002000008217749072;0
+32.1;1.906544066982499;0.0002000006139167339;0
+32.12;1.907350620942841;0.0002000007596475565;0
+32.14;1.908153782395997;0.0002000014629905266;0
+32.16;1.908956475917128;0.0002000014675925526;0
+32.18;1.909755879291205;0.0002000010185115177;0
+32.2;1.91056229189708;0.000200001608337847;0
+32.22;1.91136533636723;0.0002000016869557908;0
+32.23999999999999;1.912166821063962;0.0002000008325129678;0
+32.26000000000001;1.912974213402516;0.0002000012102626;0
+32.28;1.913783823543899;0.0002000016796692496;0
+32.3;1.914584518605338;0.0002000017628892194;0
+32.32;1.915390048964374;0.0002000018940469597;0
+32.34;1.916189486458494;0.000200001934314687;0
+32.36;1.916990337497275;0.0002000018886779294;0
+32.38;1.917791524862199;0.0002000018050744575;0
+32.4;1.918593526233875;0.0002000021183957261;0
+32.42;1.919402020162406;0.0002000019795679424;0
+32.44;1.920207350675472;0.000200002141405856;0
+32.46;1.921011131163704;0.0002000022165722803;0
+32.48;1.921813746696164;0.0002000009080628943;0
+32.5;1.922610995633207;0.000199999321897941;0
+32.52;1.923414844361526;0.0001999996348357074;0
+32.54;1.924212434499004;0.0001999995531497463;0
+32.56;1.925017443308803;0.0001999995961019888;0
+32.58;1.925824416458251;0.0002000002284970584;0
+32.6;1.926627729014457;0.0002000011573393013;0
+32.62;1.92743146075977;0.000199999775964504;0
+32.64;1.92823145392317;0.000199999966948582;0
+32.66;1.929036560218808;0.000200000458214855;0
+32.68;1.929843357893746;0.0002000001207329501;0
+32.7;1.930646845924462;0.0002000010802553662;0
+32.72;1.931448998399189;0.0002000012704724399;0
+32.73999999999999;1.932245794027082;0.0002000001916808506;0
+32.76000000000001;1.93305776332576;0.0002000004275346819;0
+32.78;1.933863483782181;0.0002000007719196258;0
+32.8;1.934662404601357;0.0002000003270571147;0
+32.82;1.935465059128152;0.0002000002173754956;0
+32.84;1.93627069672161;0.0002000009218689722;0
+32.86;1.937076295320733;0.0002000014223392971;0
+32.88;1.937878052977813;0.0002000010863914008;0
+32.9;1.938683178770618;0.0002000014054652019;0
+32.92;1.939485467725519;0.0002000015638515959;0
+32.94;1.940289891620286;0.000200001508243782;0
+32.96;1.9410912057168;0.0002000016957763406;0
+32.98;1.941896497235531;0.0002000020267387087;0
+33;1.942694901379762;0.0002000001456605908;0
+33.02;1.943498262678888;0.0002000007680846041;0
+33.04;1.944306322795436;0.0002000015511960245;0
+33.06;1.945107242074304;0.0002000013433378512;0
+33.08;1.945915165710679;0.0002000018154290159;0
+33.1;1.94671942387952;0.0002000023339239427;0
+33.12;1.94752350169956;0.0002000022050672153;0
+33.14;1.948322836833549;0.00020000213680383;0
+33.16;1.94912184538998;0.0002000020129326308;0
+33.18;1.949929115871235;0.0002000017207039813;0
+33.2;1.950728694719821;0.00020000173642757;0
+33.22;1.951529107072328;0.0002000021828240898;0
+33.23999999999999;1.952334968883215;0.0002000016723827085;0
+33.26000000000001;1.95313729195816;0.0002000010396041368;0
+33.28;1.953941862081685;0.0002000017820643276;0
+33.3;1.954740968123953;0.0002000016589601327;0
+33.32;1.955544738863602;0.0002000013141916867;0
+33.34;1.956351843618931;0.0002000020850310378;0
+33.36;1.957153986345074;0.0002000026004579471;0
+33.38;1.957956114448341;0.0002000020136996351;0
+33.4;1.958756166103245;0.0002000023228023799;0
+33.42;1.959558752389953;0.000200002490776328;0
+33.44;1.960355864846822;0.0002000020033450767;0
+33.46;1.961161190485596;0.0002000025180049817;0
+33.48;1.961970985850073;0.0002000027527083065;0
+33.5;1.962770725550293;0.0002000000056823007;0
+33.52;1.963564396757057;0.0001999972881859615;0
+33.54;1.964363156724599;0.000199997324235165;0
+33.56;1.965167946191261;0.0001999975669920353;0
+33.58;1.965970980912827;0.0001999973261526758;0
+33.6;1.966779586950072;0.0001999982910441223;0
+33.62;1.967580189399964;0.0001999982503928928;0
+33.64;1.968383945516736;0.0001999975378458707;0
+33.66;1.969194905836985;0.0001999988344666897;0
+33.68;1.969999446714758;0.000199999901753214;0
+33.7;1.970806951162027;0.0001999991182582915;0
+33.72;1.971609859152003;0.0001999993134608934;0
+33.73999999999999;1.972413040102327;0.0001999994810513394;0
+33.76000000000001;1.973212750556796;0.0001999988452047503;0
+33.78;1.974017754492303;0.0001999992912177678;0
+33.8;1.974815763818887;0.0001999993376215297;0
+33.82;1.975607607166176;0.0001999985690831917;0
+33.84;1.976414336601027;0.0001999987550817415;0
+33.86;1.977228596816914;0.0002000007638660803;0
+33.88;1.978052707976796;0.00020000217400354;0
+33.9;1.978851004886604;0.0002000018595317649;0
+33.92;1.979640181996206;0.0002000002890904004;0
+33.94;1.980431903486198;0.000199999415088967;0
+33.96;1.981232150112779;0.0001999991370498976;0
+33.98;1.982049276412322;0.0002000010986634701;0
+34;1.982869707481794;0.0002000028777300122;0
+34.02;1.983676841482876;0.0002000015834102063;0
+34.04;1.984480660965444;0.0002000020769774923;0
+34.06;1.985278290097257;0.0002000021885766222;0
+34.08;1.986067944887469;0.0002000005287792534;0
+34.1;1.986866193054357;0.0002000007017387296;0
+34.12;1.987662818082033;0.0002000001149804176;0
+34.14;1.988458244033893;0.0001999988674478758;0
+34.16;1.989256102257427;0.0001999990108776854;0
+34.18;1.990067959447391;0.0001999999285983656;0
+34.2;1.990880825615785;0.0002000007784391626;0
+34.22;1.991674989126034;0.0002000005594594265;0
+34.23999999999999;1.992473422516016;0.000200000569813985;0
+34.26000000000001;1.993274268680505;0.0002000002208270151;0
+34.28;1.994064878831936;0.0001999987477952004;0
+34.3;1.994863312221918;0.0001999985211454211;0
+34.32;1.9956672438132;0.0001999984893147414;0
+34.34;1.996467519685532;0.0001999974484898664;0
+34.36;1.997272187294896;0.0001999983838516461;0
+34.38;1.998077322836285;0.0001999989905520707;0
+34.4;1.998875673363305;0.0001999982714855119;0
+34.42;1.999682851233013;0.0001999988946765295;0
+34.44;2.000490891852394;0.000199999675870439;0
+34.46;2.001294589477663;0.0001999998672380192;0
+34.48;2.002098930509467;0.000199999512882019;0
+34.5;2.002899835165459;0.0002000001916808506;0
+34.52;2.003702314217745;0.0001999981035115637;0
+34.62;2.005956357407492;6.734915559381148e-11;0
+34.72;2.005748351873569;3.125377899852581e-11;0
+34.81999999999999;2.00557019162915;1.684460910506847e-11;0
+34.91999999999999;2.00539127586948;1.003421764838175e-11;0
+35.02;2.005227826238112;6.527711582544699e-12;0
+35.12;2.005081860691905;4.413934547133428e-12;0
+35.22;2.004932024957904;3.377417835078124e-12;0
+35.31999999999999;2.004792976031949;2.738343090181986e-12;0
+35.41999999999999;2.004656895549781;2.164241684798024e-12;0
+35.52;2.004527059035579;1.927795838378545e-12;0
+35.62;2.004400317696753;1.729021694448709e-12;0
+35.72;2.004275847777968;1.498093132951864e-12;0
+35.81999999999999;2.004156110796649;1.329179917192431e-12;0
+35.91999999999999;2.004040370734715;1.22886633626597e-12;0
+36.02;2.00393234667691;1.12655924220504e-12;0
+36.12;2.003827013228251;1.082925986151366e-12;0
+36.22;2.003727699530129;1.011877178038904e-12;0
+36.31999999999999;2.003627518208043;9.408777331088197e-13;0
+36.41999999999999;2.003534984649999;8.76177789683656e-13;0
+36.52;2.003437615794358;8.616877970719756e-13;0
+36.62;2.003342260021285;7.974169336167072e-13;0
+36.72;2.00325396222293;7.809296307026829e-13;0
+36.81999999999999;2.00316328089582;7.333435228909481e-13;0
+36.91999999999999;2.003070011319694;7.397797224393753e-13;0
+37.02;2.002982746871229;6.27516454209728e-13;0
+37.12;2.002896769235834;6.599822395425029e-13;0
+37.22;2.002818005552498;6.315908153397944e-13;0
+37.31999999999999;2.002737565112739;5.711057282560789e-13;0
+37.41999999999999;2.002656154688884;5.318316209231094e-13;0
+37.52;2.002576201678318;5.004897972813874e-13;0
+37.62;2.002498407979077;4.339026614222603e-13;0
+37.72;2.002422754093995;4.103943951070311e-13;0
+37.81999999999999;2.00234767537536;4.341722603413979e-13;0
+37.91999999999999;2.002274522002039;4.22503563460975e-13;0
+38.02;2.002203250105404;3.636056925490838e-13;0
+38.12;2.002130949733171;3.272971733266286e-13;0
+38.22;2.002055417705387;3.209293227999546e-13;0
+38.31999999999999;2.001988737391752;3.484625870628726e-13;0
+38.41999999999999;2.001914667651548;3.884049959418734e-13;0
+38.52;2.001849800574512;2.202170392465997e-13;0
+38.62;2.001776432732346;3.094732673205416e-13;0
+38.72;2.001711872735702;2.375055445822866e-13;0
+38.81999999999999;2.001646825309864;2.551357950267396e-13;0
+38.91999999999999;2.001579633195576;2.798363720547746e-13;0
+39.02;2.001520283817008;2.724205031945514e-13;0
+39.12;2.001461319507502;1.77658381701601e-13;0
+39.22;2.001407429335897;3.099896821515659e-13;0
+39.31999999999999;2.001351262869961;2.342513717132587e-13;0
+39.41999999999999;2.001282623090969;1.683819005825404e-13;0
+39.52;2.001217799882561;1.903409224046967e-13;0
+39.62;2.00116094126717;1.803012105427251e-13;0
+39.72;2.001102303535223;2.290226715491383e-13;0
+39.81999999999999;2.00105303419237;2.073066684709933e-13;0
+39.91999999999999;2.000991744845613;1.406435892543626e-13;0
+40.02;2.000940730506249;1.256030073007812e-13;0
+40.12;2.000884671274735;1.003746239380965e-13;0
+40.22;2.000833510706612;1.288268028268077e-13;0
+40.31999999999999;2.000784577689903;8.446449054109922e-14;0
+40.41999999999999;2.000730702141175;1.041452116381485e-13;0
+40.52;2.000672298375241;9.614078175727263e-14;0
+40.62;2.000620172697317;1.251017811412578e-13;0
+40.72;2.000570528033985;1.705538806071423e-13;0
+40.81999999999999;2.000519601431876;7.334638300257702e-14;0
+40.91999999999999;2.000474143785314;5.63236794181526e-14;0
+41.02;2.000421228472097;8.017748801002302e-14;0
+41.12;2.000372427061269;7.684357461561643e-14;0
+41.22;2.000325122058066;1.19379449153364e-13;0
+41.31999999999999;2.000278216746801;7.9349705413234e-14;0
+41.41999999999999;2.000226671109616;1.554589360661252e-14;0
+41.52;2.000186190115118;7.435263248949934e-14;0
+41.62;2.00013814421954;7.050610143194379e-14;0
+41.72;2.000092832801737;8.468852344573477e-14;0
+41.81999999999999;2.000046332056702;5.292521416986795e-14;0
+41.91999999999999;1.999997262559819;5.54617223104871e-14;0
+42.02;1.999953013737657;6.552421717970981e-14;0
+42.12;1.999910310066038;3.70986184661247e-14;0
+42.22;1.999875161546913;1.831023181974234e-14;0
+42.31999999999999;1.999832409132374;1.415613016429738e-14;0
+42.41999999999999;1.999789369134612;5.136837534104487e-14;0
+42.52;1.999744725494803;3.294071964280442e-14;0
+42.62;1.999698614693123;1.768749628821307e-14;0
+42.72;1.999655252992092;-2.530024122668074e-14;0
+42.81999999999999;1.999610614226576;-9.573390814336358e-14;0
+42.91999999999999;1.999571025227501;-4.504551417760804e-14;0
+43.02;1.999530398004245;-7.742136971856031e-15;0
+43.12;1.999489005517155;-1.000145185758733e-14;0
+43.22;1.999457239756632;-4.679221140018998e-14;0
+43.31999999999999;1.999423529153627;-1.252277132670559e-14;0
+43.41999999999999;1.999378558936259;4.115399375681532e-14;0
+43.52;1.999340417601889;-8.102867919998144e-15;0
+43.62;1.999302919674053;-6.308585875258033e-14;0
+43.72;1.999260021030756;-2.964420127588476e-14;0
+43.81999999999999;1.999223142137996;-1.038496581298017e-14;0
+43.91999999999999;1.999184279408419;-3.196927025267587e-15;0
+44.02;1.999152996202797;-5.90988324836431e-14;0
+44.12;1.999114289450562;-7.136368472046909e-14;0
+44.22;1.999079564994836;-6.448321653064593e-14;0
+44.31999999999999;1.999040219710358;-1.632373636975908e-14;0
+44.41999999999999;1.99899721870693;-6.115310030411446e-14;0
+44.52;1.998967578137689;-3.399955282871435e-14;0
+44.62;1.998931225668458;-9.698317637429725e-14;0
+]]></csv>
+        </dataset>
+    </zahner-measurement>
+</zahner-measurement>
