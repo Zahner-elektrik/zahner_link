@@ -35,16 +35,16 @@ int main(int argc, char *argv[])
     // =============================================================================================
 
     // Ensure your IM7 device is powered on and fully booted before connecting.
-    // Create a ZahnerLinkExc object using the IM7's IP address (here "169.254.9.137")
+    // Create a ZahnerLinkExc object using the IM7's IP address (here "10.10.253.154")
     // and port number.
     // As an alternative, there is also the non-exception-based version of the ZahnerLink class.
-    ZahnerLinkExc link("169.254.9.137", "1994");
+    ZahnerLinkExc link("10.10.253.154", "1994");
 
-    auto status = link.connect();
+    auto error = link.connect();
 
-    if (status != ZahnerLinkServiceStatusEnum::SUCCESS_NO_ERROR)
+    if (error)
     {
-        std::cout << "Failed to connect to IM7. Status: " << static_cast<int>(status) << std::endl;
+        std::cout << "Failed to connect to IM7. Status: " << error.getMessageFormatString() << std::endl;
         return 1;
     }
     std::cout << "Successfully connected to IM7." << std::endl;
@@ -92,8 +92,7 @@ int main(int argc, char *argv[])
                                            .duration = 5.0,
                                            .output_data_rate = 25.0,
                                            .autorange = true,
-                                           .current_range = 0.1,
-                                           .ir_drop = 0.0});
+                                           .current_range = 0.1});
     link.doJob(potentiostaticPolarizationJob);
 
     // Retrieve the data from the first run from the IM7.
@@ -152,7 +151,7 @@ int main(int argc, char *argv[])
     // Part C: EIS Frequency Table
     // ---------------------------------------------------------------------------------------------
 
-    // Configure an EIS measurement with specific frequency points (1k Hz, 20 k Hz) defined in a table.
+    // Configure an EIS measurement with specific frequency points (1 kHz, 20 kHz) defined in a table.
     std::cout << "Starting EIS Frequency Table Job..." << std::endl;
     EisFrequencyTableJob eisTableJob(
         {.bias = 0.0,

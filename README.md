@@ -6,7 +6,7 @@ What makes this library particularly powerful is that it uses the exact same C++
 
 # 📚 Documentation
 
-The complete documentation of the individual functions can be found on the [API documentation website](https://doc.zahner.de/im7/apis/zahner_link/python).  
+The complete documentation of the individual functions can be found on the [API documentation website](https://doc.zahner.de/im7/apis/zahner_link).
 
 # 🔧 Installation
 
