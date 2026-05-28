@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<zahner-measurement>
+    <zahner-fileinfo>
+        <type>zahner-measurement</type>
+        <file-version>2</file-version>
+        <creation-timestamp>2026-05-18T12:25:23.571797</creation-timestamp>
+        <generator>lib_zahner_link</generator>
+        <generator-version>0.1</generator-version>
+        <comment></comment>
+    </zahner-fileinfo>
+    <zahner-measurement>
+        <dataset type="DC" job-type-short="ocv" job-type="OCV/OCP Scan">
+            <data-structure>
+                <column name="time" type="double" unit="s" urn="time"/>
+                <column name="voltage" type="double" unit="V" urn="37128:POT:U~43639:PAD_U"/>
+                <column name="current" type="double" unit="A" urn="37128:POT:I~43639:PAD_I"/>
+                <column name="T1" type="double" unit="°C" urn="42390:TEMP_IN1~37128:ADC_24"/>
+                <column name="A2" type="double" unit="V" urn="42390:ANALOG_IN2~37128:ADC_24"/>
+                <column name="shunt" type="double" unit="index" urn="shunt"/>
+            </data-structure>
+            <sections>
+                <section type="DC" job-type-short="ocv" job-type="OCV/OCP Scan" length="10" time-start="0.5">
+                    <job-info>
+                        <job-id>91d915a9-84b1-4880-9c0e-c87d53b1705a</job-id>
+                        <status>FINISHED</status>
+                        <status-detail>RUN_TO_COMPLETION</status-detail>
+                        <created>2026-05-18T10:25:31.767736Z</created>
+                        <started>2026-05-18T10:25:31.767736Z</started>
+                        <ended>2026-05-18T10:25:36.770374Z</ended>
+                        <type>ocv</type>
+                        <parameters>
+                            <duration>5</duration>
+                            <output_data_rate>2</output_data_rate>
+                        </parameters>
+                        <stop-conditions/>
+                        <meta/>
+                        <message>no error occoured</message>
+                        <last-error>
+                            <number>0</number>
+                            <code>NONE</code>
+                            <message>no error occoured</message>
+                            <message-parameters/>
+                        </last-error>
+                    </job-info>
+                </section>
+            </sections>
+            <csv type="data"><![CDATA[
+time;voltage;current;T1;A2;shunt
+s;V;A;°C;V;index
+time;37128:POT:U~43639:PAD_U;37128:POT:I~43639:PAD_I;42390:TEMP_IN1~37128:ADC_24;42390:ANALOG_IN2~37128:ADC_24;shunt
+0.5;-0.00011688045928347619;4.2495226708879355e-13;23.875353941077595;4.2432177634599206;11
+1;-0.00011547148547234828;4.152609376837767e-13;23.907170722063579;4.2432470540239322;11
+1.5;-0.00011528134713797463;4.7002356084023452e-13;23.844164349681321;4.2432512523536223;11
+2;-0.00011502782935880973;4.7501091164515542e-13;23.86713531385659;4.2432502888788486;11
+2.5;-0.00011692433736063934;3.9871200092199353e-13;23.852914749893976;4.2432258948146524;11
+3;-0.00011784090163915854;4.5071646795148748e-13;23.890991790606567;4.2432519272514106;11
+3.5;-0.00011936688365605485;3.9969435789872038e-13;23.871074157569332;4.2432385689296694;11
+4;-0.00011836256322320935;4.2678096238393125e-13;23.875319032566107;4.2432511732276748;11
+4.5;-0.00011776777151055328;4.7930683427030328e-13;23.891646907005466;4.2431953335810118;11
+5;-0.0001209026163567652;4.5903249758908673e-13;23.859074938554322;4.2432348313922628;11
+]]></csv>
+        </dataset>
+    </zahner-measurement>
+</zahner-measurement>

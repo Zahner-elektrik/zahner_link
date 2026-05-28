@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     // Create a ZahnerLinkExc object using the IM7's IP address (here "10.10.253.154")
     // and port number.
     // As an alternative, there is also the non-exception-based version of the ZahnerLink class.
-    ZahnerLinkExc link("10.10.253.154", "1994");
+    ZahnerLinkExc link("10.10.253.150", "1994");
 
     auto error = link.connect();
 
@@ -96,8 +96,8 @@ int main(int argc, char *argv[])
     link.doJob(potentiostaticPolarizationJob);
 
     // Retrieve the data from the first run from the IM7.
-    // getJobResultDataT returns a smart pointer to the dataset.
-    auto dcDataset1 = link.getJobResultDataT(potentiostaticPolarizationJob);
+    // getJobResultDataT returns std::expected; call .value() to unwrap the shared_ptr.
+    auto dcDataset1 = link.getJobResultDataT(potentiostaticPolarizationJob).value();
     std::cout << "First DC measurement finished." << std::endl;
 
     // Reuse the job object for a second measurement, changing the bias to -1.0 V.
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
     potentiostaticPolarizationJob.parameters.bias = -1.0;
     link.doJob(potentiostaticPolarizationJob);
 
-    auto dcDataset2 = link.getJobResultDataT(potentiostaticPolarizationJob);
+    auto dcDataset2 = link.getJobResultDataT(potentiostaticPolarizationJob).value();
     std::cout << "Second DC measurement finished." << std::endl;
 
     // Combine the two datasets into one.
@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
     link.doJob(eisGenerateJob);
 
     // Retrieve and save the first EIS result.
-    auto eisDataset1 = link.getJobResultDataT(eisGenerateJob);
+    auto eisDataset1 = link.getJobResultDataT(eisGenerateJob).value();
     exporter.saveAsFileStandalone(ZXml::Measurement(eisDataset1), "eis_generate.zmx");
     std::cout << "Saved EIS sweep data to 'eis_generate.zmx'." << std::endl;
 
@@ -172,7 +172,7 @@ int main(int argc, char *argv[])
     link.doJob(eisTableJob);
 
     // Retrieve and save the second EIS result.
-    auto eisDataset2 = link.getJobResultDataT(eisTableJob);
+    auto eisDataset2 = link.getJobResultDataT(eisTableJob).value();
     exporter.saveAsFileStandalone(ZXml::Measurement(eisDataset2), "eis_table.zmx");
     std::cout << "Saved EIS table data to 'eis_table.zmx'." << std::endl;
 
