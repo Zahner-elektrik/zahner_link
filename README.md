@@ -5,9 +5,9 @@
 [![Documentation](https://img.shields.io/badge/docs-doc.zahner.de-blue)](https://doc.zahner.de/im7/apis/zahner_link)
 [![License](https://img.shields.io/badge/license-Zahner%20Software%20License-blue)](LICENSE)
 
-The zahner_link library provides comprehensive programmatic control of the Zahner IM7/c/x Electrochemical Workstations. Available for both **Python** and **C++**, this job-based library enables you to automate complex measurement protocols and integrate electrochemical experiments into your data analysis workflows.
+The zahner_link library provides comprehensive programmatic control of the Zahner [IM7/c/x](https://zahner.de/de/products-details/potentiostaten/im7x) Electrochemical Workstations. Available for both **Python** and **C++**, this job-based library enables you to automate complex measurement protocols and integrate electrochemical experiments into your data analysis workflows.
 
-What makes this library particularly powerful is that it uses the exact same C++ core library as Zahner Lab itself. This means you get identical functionality whether you're working in the GUI or writing code, no feature compromises or compatibility issues to worry about.
+What makes this library particularly powerful is that it uses the exact same C++ core library as [Zahner Lab](https://zahner.de/de/products-details/software/zahner-lab) itself. This means you get identical functionality whether you're working in the GUI or writing code, no feature compromises or compatibility issues to worry about.
 
 # 📚 Documentation
 
@@ -130,6 +130,16 @@ Switch off the potentiostat and disconnect.
 link.do_job(zl.control.SwitchOffJob(potentiostat="MAIN:1:POT"))
 link.disconnect()
 ```
+
+# 🧩 Generate Code in Zahner Lab
+
+You do not have to write a script from scratch to get started. The [Custom Experiment Builder](https://doc.zahner.de/im7/zahner_lab/custom_experiment_builder/code_generation/index.html) in Zahner Lab lets you design your measurement visually by dragging and dropping blocks, and then generates the equivalent, ready-to-run Python code built on `zahner_link` with a single click.
+
+This is the fastest way into the library: assemble your experiment as blocks, click the Python logo, and copy the generated script into your editor to run or extend it. Because the generated code mirrors your block structure exactly, it also doubles as a hands-on way to learn how a complete measurement is expressed with `zahner_link`.
+
+![The Zahner Lab Custom Experiment Builder with a "Python Code" dialog generated from the visual block structure, showing the equivalent Python script that switches on the potentiostat, runs a ramp and an EIS measurement with the zahner_link library, and switches off, alongside the corresponding EIS block on the right.](https://doc.zahner.de/im7/_images/python_code_generation.png)
+
+For a complete walkthrough, from the block setup all the way to a finished evaluation script, see the [Getting Started with Python](https://doc.zahner.de/im7/applications/getting_started_python/index.html) application note.
 
 # 📖 Examples
 
