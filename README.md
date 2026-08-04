@@ -159,6 +159,8 @@ The examples are part of this repository as [Jupyter](https://jupyter.org/) note
 | [LiveDataCallbacks](python/LiveDataCallbacks/LiveDataCallbacks.ipynb) | Receiving live DC and EIS data through callbacks |
 | [ChannelConfiguration](python/ChannelConfiguration/ChannelConfiguration.ipynb) | Advanced channel configuration, including PAD4 cards |
 | [TempuRmuxMio](python/TempuRmuxMio/TempuRmuxMio.ipynb) | Using the TEMP-U2, RMUX16, and MIO extension cards |
+| [CapacitorCycling](python/CapacitorCycling/CapacitorCycling.ipynb) | Fast capacitor cycling: chained primitives vs. the dedicated FastCyclingJob, dead time explained |
+| [SecureCommunication](python/SecureCommunication/SecureCommunication.ipynb) | Encrypted and authenticated TLS connections to the IM7 (certificate pinning, custom CAs) |
 | [ErrorHandling](python/ErrorHandling/ErrorHandling.ipynb) | Error handling, connection loss recovery, and job inspection |
 
 # 📧 Having a question?
