@@ -139,7 +139,8 @@ int main(int argc, char *argv[])
          .pre_waves = 1,
          .meas_duration = 0.2,
          .meas_waves = 3,
-         .amplitude = 0.01});
+         .amplitude = 0.01,
+         .drift_correction = DriftCorrection::FULL});
     link.doJob(eisGenerateJob);
 
     // Retrieve and save the first EIS result.
@@ -168,7 +169,8 @@ int main(int argc, char *argv[])
               .pre_waves = 1,
               .meas_duration = 0.2,
               .meas_waves = 3},
-         }});
+         },
+         .drift_correction = DriftCorrection::FULL});
     link.doJob(eisTableJob);
 
     // Retrieve and save the second EIS result.

@@ -29,7 +29,8 @@
                         <parameters>
                             <output_data_rate>200.000000</output_data_rate>
                             <current_range>0.100000</current_range>
-                            <start_value>0.000000</start_value>
+                            <base_value>0.0</base_value>
+                            <start_value>0.050000</start_value>
                             <step_value>0.050000</step_value>
                             <end_value>1.500000</end_value>
                             <step_time>1.000000</step_time>

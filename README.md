@@ -5,7 +5,7 @@
 [![Documentation](https://img.shields.io/badge/docs-doc.zahner.de-blue)](https://doc.zahner.de/im7/apis/zahner_link)
 [![License](https://img.shields.io/badge/license-Zahner%20Software%20License-blue)](LICENSE)
 
-The zahner_link library provides comprehensive programmatic control of the Zahner [IM7/c/x](https://zahner.de/de/products-details/potentiostaten/im7x) Electrochemical Workstations. Available for both **Python** and **C++**, this job-based library enables you to automate complex measurement protocols and integrate electrochemical experiments into your data analysis workflows.
+The zahner_link library provides comprehensive programmatic control of the Zahner [IM7/c/x](https://zahner.de/de/products-details/potentiostaten/im7x) Electrochemical Workstations. Available for **Python**, **C++** and **C#**, this job-based library enables you to automate complex measurement protocols and integrate electrochemical experiments into your data analysis workflows.
 
 What makes this library particularly powerful is that it uses the exact same C++ core library as [Zahner Lab](https://zahner.de/de/products-details/software/zahner-lab) itself. This means you get identical functionality whether you're working in the GUI or writing code, no feature compromises or compatibility issues to worry about.
 
@@ -14,14 +14,14 @@ What makes this library particularly powerful is that it uses the exact same C++
 The complete documentation is available on the [API documentation website](https://doc.zahner.de/im7/apis/zahner_link), including:
 
 - A detailed reference for every job, class, and function
-- Dedicated sections for the [Python](https://doc.zahner.de/im7/apis/zahner_link/python/) and C++ APIs
+- Dedicated sections for the [Python](https://doc.zahner.de/im7/apis/zahner_link/python/), C++ and [C#](https://doc.zahner.de/im7/apis/zahner_link/csharp/) APIs
 - The [examples](https://doc.zahner.de/im7/apis/zahner_link/python/index.html#examples) from this repository, rendered for online browsing
 
 # ✨ Features
 
 - **Job-based API** - build measurements from composable jobs instead of low-level commands
 - **Identical core to Zahner Lab** - uses the exact same C++ core library as the GUI, so results and capabilities match
-- **Python and C++** - the same API available as a Python package and a C++ library
+- **Python, C++ and C#** - the same API available as a Python package, a C++ library and a .NET package (`ZahnerLink.Net`)
 - **Cross-platform** - pre-built wheels for Windows, Linux (glibc/musl), and macOS
 
 ### Measurement Techniques
@@ -47,10 +47,16 @@ The complete documentation is available on the [API documentation website](https
 
 # 🔧 Installation
 
-The package can be installed via pip.
+The Python package can be installed via pip.
 
 ```bash
 pip install zahner_link
+```
+
+The C# package can be installed from NuGet.
+
+```bash
+dotnet add package ZahnerLink.Net
 ```
 
 # ✅ Requirements
@@ -63,9 +69,11 @@ Pre-built wheels are available for:
 - Linux: x86_64 and ARM64 (glibc and musl)
 - macOS: ARM64
 
+The C# package requires .NET 8.0 or later, or .NET Framework 4.8. It targets `net8.0` and `net48` and contains the native library for Windows (x86_64 and x86), Linux (x86_64 and ARM64), and macOS (ARM64).
+
 # 🔨 Basic Usage
 
-The [Jupyter](https://jupyter.org/) notebook [BasicIntroduction.ipynb](python/BasicIntroduction/BasicIntroduction.ipynb) explains the fundamentals of using the library. The equivalent C++ example is available in [cpp/BasicIntroduction/main.cpp](cpp/BasicIntroduction/main.cpp).
+The [Jupyter](https://jupyter.org/) notebook [BasicIntroduction.ipynb](python/BasicIntroduction/BasicIntroduction.ipynb) explains the fundamentals of using the library. The equivalent C++ example is available in [cpp/BasicIntroduction/main.cpp](cpp/BasicIntroduction/main.cpp), the C# example in [csharp/BasicIntroduction/BasicIntroduction.cs](csharp/BasicIntroduction/BasicIntroduction.cs).
 
 ```python
 import zahner_link as zl
@@ -145,23 +153,25 @@ For a complete walkthrough, from the block setup all the way to a finished evalu
 
 The examples are part of this repository as [Jupyter](https://jupyter.org/) notebooks under [python/](python/) and are also rendered in the [documentation](https://doc.zahner.de/im7/apis/zahner_link/python/index.html#examples).
 
-| Example | Description |
-| --- | --- |
-| [BasicIntroduction](python/BasicIntroduction/BasicIntroduction.ipynb) | First steps: connecting, DC calibration, switching on, a simple measurement and data export |
-| [Polarizations](python/Polarizations/Polarizations.ipynb) | Potentiostatic and galvanostatic polarization measurements and data handling |
-| [Eis](python/Eis/Eis.ipynb) | Electrochemical Impedance Spectroscopy with generated and custom frequency tables |
-| [PulseVoltammetry](python/PulseVoltammetry/PulseVoltammetry.ipynb) | Pulse voltammetry techniques (NPV, DPV, SWV) |
-| [CurrentVoltageCurves](python/CurrentVoltageCurves/CurrentVoltageCurves.ipynb) | Recording current-voltage curves such as cyclic voltammetry |
-| [CurrentDependentCharacterization](python/CurrentDependentCharacterization/CurrentDependentCharacterization.ipynb) | Characterizing a device as a function of the DC bias current |
-| [ArbitrarySignal](python/ArbitrarySignal/ArbitrarySignal.ipynb) | Measurements with arbitrary, freely defined excitation signals |
-| [EisWaves](python/EisWaves/EisWaves.ipynb) | Accessing and visualizing the raw EIS waveform data |
-| [StopConditions](python/StopConditions/StopConditions.ipynb) | Extending measurement primitives with stop conditions |
-| [LiveDataCallbacks](python/LiveDataCallbacks/LiveDataCallbacks.ipynb) | Receiving live DC and EIS data through callbacks |
-| [ChannelConfiguration](python/ChannelConfiguration/ChannelConfiguration.ipynb) | Advanced channel configuration, including PAD4 cards |
-| [TempuRmuxMio](python/TempuRmuxMio/TempuRmuxMio.ipynb) | Using the TEMP-U2, RMUX16, and MIO extension cards |
-| [CapacitorCycling](python/CapacitorCycling/CapacitorCycling.ipynb) | Fast capacitor cycling: chained primitives vs. the dedicated FastCyclingJob, dead time explained |
-| [SecureCommunication](python/SecureCommunication/SecureCommunication.ipynb) | Encrypted and authenticated TLS connections to the IM7 (certificate pinning, custom CAs) |
-| [ErrorHandling](python/ErrorHandling/ErrorHandling.ipynb) | Error handling, connection loss recovery, and job inspection |
+The C++ examples under [cpp/](cpp/) and the C# examples under [csharp/](csharp/) are modelled on these Python notebooks: each one follows the same steps in the same order, so the explanations in the corresponding notebook apply to them as well. Where a language deliberately deviates from the notebook, this is marked in the comments of the source file. The header of each C# example shows how to run it, e.g. `dotnet run -- <host> [port]`. The C# examples are also rendered in the [C# documentation](https://doc.zahner.de/im7/apis/zahner_link/csharp/index.html#examples).
+
+| Example | Description | C++ | C# |
+| --- | --- | :---: | :---: |
+| [BasicIntroduction](python/BasicIntroduction/BasicIntroduction.ipynb) | First steps: connecting, DC calibration, switching on, a simple measurement and data export | [C++](cpp/BasicIntroduction/main.cpp) | [C#](csharp/BasicIntroduction/BasicIntroduction.cs) |
+| [Polarizations](python/Polarizations/Polarizations.ipynb) | Potentiostatic and galvanostatic polarization measurements and data handling | – | [C#](csharp/Polarizations/Polarizations.cs) |
+| [Eis](python/Eis/Eis.ipynb) | Electrochemical Impedance Spectroscopy with generated and custom frequency tables | – | [C#](csharp/Eis/Eis.cs) |
+| [PulseVoltammetry](python/PulseVoltammetry/PulseVoltammetry.ipynb) | Pulse voltammetry techniques (NPV, DPV, SWV) | – | [C#](csharp/PulseVoltammetry/PulseVoltammetry.cs) |
+| [CurrentVoltageCurves](python/CurrentVoltageCurves/CurrentVoltageCurves.ipynb) | Recording current-voltage curves such as cyclic voltammetry | – | [C#](csharp/CurrentVoltageCurves/CurrentVoltageCurves.cs) |
+| [CurrentDependentCharacterization](python/CurrentDependentCharacterization/CurrentDependentCharacterization.ipynb) | Characterizing a device as a function of the DC bias current | – | [C#](csharp/CurrentDependentCharacterization/CurrentDependentCharacterization.cs) |
+| [ArbitrarySignal](python/ArbitrarySignal/ArbitrarySignal.ipynb) | Measurements with arbitrary, freely defined excitation signals | – | – |
+| [EisWaves](python/EisWaves/EisWaves.ipynb) | Accessing and visualizing the raw EIS waveform data | – | [C#](csharp/EisWaves/EisWaves.cs) |
+| [StopConditions](python/StopConditions/StopConditions.ipynb) | Extending measurement primitives with stop conditions | – | [C#](csharp/StopConditions/StopConditions.cs) |
+| [LiveDataCallbacks](python/LiveDataCallbacks/LiveDataCallbacks.ipynb) | Receiving live DC and EIS data through callbacks | – | [C#](csharp/LiveDataCallbacks/LiveDataCallbacks.cs) |
+| [ChannelConfiguration](python/ChannelConfiguration/ChannelConfiguration.ipynb) | Advanced channel configuration, including PAD4 cards | – | – |
+| [TempuRmuxMio](python/TempuRmuxMio/TempuRmuxMio.ipynb) | Using the TEMP-U2, RMUX16, and MIO extension cards | – | – |
+| [CapacitorCycling](python/CapacitorCycling/CapacitorCycling.ipynb) | Fast capacitor cycling: chained primitives vs. the dedicated FastCyclingJob, dead time explained | – | [C#](csharp/CapacitorCycling/CapacitorCycling.cs) |
+| [SecureCommunication](python/SecureCommunication/SecureCommunication.ipynb) | Encrypted and authenticated TLS connections to the IM7 (certificate pinning, custom CAs) | – | [C#](csharp/SecureCommunication/SecureCommunication.cs) |
+| [ErrorHandling](python/ErrorHandling/ErrorHandling.ipynb) | Error handling, connection loss recovery, and job inspection | – | [C#](csharp/ErrorHandling/ErrorHandling.cs) |
 
 # 📧 Having a question?
 
